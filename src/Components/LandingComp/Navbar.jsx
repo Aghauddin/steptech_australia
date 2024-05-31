@@ -16,7 +16,7 @@ function Navbar() {
     <nav className="">
       <div className="w-full flex flex-wrap items-center justify-between p-4 relative z-20 bg-transparent">
         <a href="/">
-          <img img className="h-16 w-auto" src="https://i.ibb.co/sK6v4j6/logo-05-1.png" alt="Company Logo" />
+          <img className="h-16 w-auto" src="https://i.ibb.co/sK6v4j6/logo-05-1.png" alt="Company Logo" />
         </a>
         <div className='md:hidden'>
         <button
@@ -38,23 +38,23 @@ function Navbar() {
           </svg>
         </button>
         </div>
-        <div className={`w-full md:block md:w-auto ${isMenuOpen ? '' : 'hidden'}`} id="navbar-dropdown">
-          <ul className="flex flex-col justify-center items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:border-0">
+        <div className={`w-full md:block md:w-auto ml-0 md:-ml-[0.5rem] ${isMenuOpen ? '' : 'hidden'}`} id="navbar-dropdown">
+          <ul className="flex flex-col justify-center items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-4 lg:space-x-12 md:border-0">
             <li>
-              <a href="/" className="block py-2 pl-3 pr-4 text-xl md:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700 hover:text-white" aria-current="page">Home</a>
+              <a href="/" className="block py-2 pl-3 pr-4 text-xl md:text-xl lg:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700"  aria-current="page">Home</a>
             </li>
             <li>
-              <a href="/about-us" className="block py-2 pl-3 pr-4 text-xl md:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700 hover:text-white">About</a>
+              <a href="/about-us" className="block py-2 pl-3 pr-4 text-xl md:text-xl lg:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700" >About Us</a>
             </li>
             <li>
               <button
                 id="dropdownNavbarLink"
                 onClick={toggleDropdown}
-                className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-xl md:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 active:text-blue-700 hover:text-white"
+                className="flex items-center justify-between w-full py-2 pl-16 md:pl-3 pr-16 text-xl md:text-xl lg:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 active:text-blue-700" 
               >
                 Services
                 <svg
-                  className="w-3.5 h-3.5 ml-2.5 mt-2"
+                  className="w-3.5 h-3.5 ml-2 md:ml-2.5 mt-2"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -67,44 +67,44 @@ function Navbar() {
               {/* Dropdown menu */}
               <div
                 id="dropdownNavbar"
-                className={`absolute z-30 ${isDropdownOpen ? '' : 'hidden'} font-normal md:font-bold text-black rounded-lg shadow w-44 md:w-102 2xl:w-103 flex justify-center items-center -ml-0 mt-0 md:-ml-96 2xl:-ml-110 md:mt-3 bg-[#D9D9EE]`}
+                className={`md:absolute z-30 ${isDropdownOpen ? '' : 'hidden'} font-normal md:font-bold text-black rounded-lg shadow w-56 md:w-104 lg:w-102 2xl:w-103 flex justify-center items-center ml-0 mt-0 md:-ml-64 lg:-ml-96 2xl:-ml-110 md:mt-3 bg-[#D9D9EE]`}
               >
                 <ul className="py-2 text-sm text-white" aria-labelledby="dropdownLargeButton">
                 <div className='grid md:grid-cols-3 sm:grid-cols-1'>
                   <li>
-                    <a href="/web-design-&-development" className="block px-4 py-2 hover:bg-black-100 hover:bg-black-600 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl ">Web Development & Design</a>
+                    <a href="/web-design-&-development" className="block px-4 py-2 hover:bg-black-100 hover:bg-black-600 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Web Development & Design</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Web design and development is to transform the brand game.</span>
                   </li>
                   <li>
-                    <a href="/graphic-designing" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl ">Graphic Designing</a>
+                    <a href="/graphic-designing" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Graphic Designing</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Step Up Your Brand with Graphic Designing.</span>
                   </li>
                   <li>
-                    <a href="/mobile-app-design-&-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl ">Mobile App UI/UX Design & Development</a>
+                    <a href="/mobile-app-design-&-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Mobile App UI/UX Design & Development</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Stunning UI/UX for happy users.</span>
                   </li>
                   <li>
-                    <a href="/software-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl ">Software Development</a>
+                    <a href="/software-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Software Development</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Bespoke Software Solutions. Safe, Simple, Usable.</span>
                   </li>
                   <li>
-                    <a href="/blockchain-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl">Blockchain Development</a>
+                    <a href="/blockchain-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl">Blockchain Development</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Blockchain Security & Freedom. Build Your Future.</span>
                   </li>
                   <li>
-                    <a href="/search-enigne-optimization" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl">Search Engine Optimization</a>
+                    <a href="/search-enigne-optimization" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl">Search Engine Optimization</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Attract more customers. Grow your business.</span>
                   </li>
                   <li>
-                    <a href="/ecommerce" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl">E-commerce</a>
+                    <a href="/ecommerce" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl">E-commerce</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Global eCommerce. Design, Build, Profit.</span>
                   </li>
                   <li>
-                    <a href="/nft" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl ">NFT</a>
+                    <a href="/nft" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">NFT</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Step Up Your NFT Game. Australia's Fastest Marketplace.</span>
                   </li>
                   <li>
-                    <a href="/artificial-intelligence" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] hover:text-white text-black text-md md:text-lg 2xl:text-xl ">Artificial Intelligence</a>
+                    <a href="/artificial-intelligence" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Artificial Intelligence</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>AI Made Easy. Step Tech AU Boosts Efficiency.</span>
                   </li>
                   </div>
@@ -112,10 +112,10 @@ function Navbar() {
               </div>
             </li>
             <li>
-              <a href="/portfolio" className="block py-2 pl-3 pr-4 text-xl md:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700 hover:text-white">Portfolio</a>
+              <a href="/portfolio" className="block py-2 pl-3 pr-4 text-xl md:text-xl lg:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700">Portfolio</a>
             </li>
             <li>
-              <a href="/blog" className="block py-2 pl-3 pr-4 text-xl md:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700 hover:text-white">Blog</a>
+              <a href="/blog" className="block py-2 pl-3 pr-4 text-xl md:text-xl lg:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 focus:text-blue-700 active:text-blue-700">Blog</a>
             </li>
           </ul>
           
@@ -123,7 +123,7 @@ function Navbar() {
         <div className="flex justify-end items-end  space-x-3 hidden md:block">
                 <button
                   type="button"
-                  className="bg-gradient-to-r from-[#290069] to-[#D000E7] p-3 -mt-10 rounded text-white font-medium text-md 2xl:text-xl hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
+                  className="bg-gradient-to-r from-[#290069] to-[#D000E7] p-3 md:p-2.5 -mt-10 md:mt-5 rounded text-white font-medium text-md md:text-md 2xl:text-xl hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
                   Lets Contact
                 </button>
                 <button

@@ -12,7 +12,7 @@ import Navbar from '../Components/LandingComp/Navbar';
 const Home = () => {
   return (
     <div className='bg-g-purple'>
-      <div className='md:px-20 lg:px-10 xl:px-16'>
+      <div className='md:px-5 lg:px-10 xl:px-16'>
       <Navbar/>
       </div>
       <Banner/>

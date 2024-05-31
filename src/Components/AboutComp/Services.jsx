@@ -11,26 +11,35 @@ export default function Services() {
 <div className="relative h-full flex items-center justify-center rounded-xl overflow-hidden border-[#290069]">
   <div className="flex flex-col justify-end items-start absolute inset-0 w-full px-5 p-5 shadow-xl z-20 border-[#290069]">
   <div className="absolute inset-0 z-10 bg-gradient-to-b from-[rgba(97,0,248,0)] to-[rgba(97,0,248,0.9)] rounded-br-3xl rounded-bl-3xl"></div>
-  <div className="flex justify-start">
-    <p className="flex-col text-3xl uppercase text-white font-medium z-20">Samad</p>
+  <div className="flex flex-col justify-start group">
+    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] lg:translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor">samad</p>
+    <span className="invisible group-hover:visible  text-xs md:text-[0.5rem] lg:text-sm uppercase text-white font-normal z-10">Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit. Quisquam omnis cumque deleniti, error dolorem tenetur minima molestias ducimus inventore alias.
+    </span>
   </div>
   </div>
   <img className="relative z-0" src="https://i.ibb.co/1sGyJsm/12801392-0788-4138-a1a4-d6ee6a870663-1.png" alt=""/>
 </div>
-<div className="relative h-full flex items-center justify-center rounded-xl overflow-hidden border-[#290069]">
+<div className="relative h-full flex items-center justify-center rounded-xl overflow-hidden border-[#290069] mt-10 md:mt-0 lg:mt-0">
   <div className="flex flex-col justify-end items-start absolute inset-0 w-full px-5 p-5 shadow-xl z-20 border-[#290069]">
   <div className="absolute inset-0 z-10 bg-gradient-to-b from-[rgba(97,0,248,0)] to-[rgba(97,0,248,0.9)] rounded-br-3xl rounded-bl-3xl"></div>
-  <div className="flex justify-start">
-    <p className="flex-col text-3xl uppercase text-white font-medium z-20">ali</p>
+  <div className="flex flex-col justify-start group">
+    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor">ali</p>
+    <span className="invisible group-hover:visible  text-xs md:text-[0.5rem] lg:text-sm uppercase text-white font-normal z-10">Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit. Quisquam omnis cumque deleniti, error dolorem tenetur minima molestias ducimus inventore alias.
+    </span>
   </div>
   </div>
-  <img className="relative z-0" src="https://i.ibb.co/1sGyJsm/12801392-0788-4138-a1a4-d6ee6a870663-1.png" alt=""/>
+  <img className="relative z-0" src="https://i.ibb.co/kmWzVs4/a011c681-ac2b-49e0-825a-58e4f7d86e42-1.png" alt=""/>
 </div>
-<div className="relative h-full flex items-center justify-center rounded-xl overflow-hidden border-[#290069]">
+<div className="relative h-full flex items-center justify-center rounded-xl overflow-hidden border-[#290069] mt-20 md:mt-0 lg:mt-0">
   <div className="flex flex-col justify-end items-start absolute inset-0 w-full px-5 p-5 shadow-xl z-20 border-[#290069]">
   <div className="absolute inset-0 z-10 bg-gradient-to-b from-[rgba(97,0,248,0)] to-[rgba(97,0,248,0.9)] rounded-br-3xl rounded-bl-3xl"></div>
-  <div className="flex justify-start">
-    <p className="flex-col text-3xl  uppercase text-white font-medium z-20">john</p>
+  <div className="flex flex-col justify-start group">
+    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor">john</p>
+    <span className="invisible group-hover:visible  text-xs md:text-[0.5rem] lg:text-sm uppercase text-white font-normal z-10">Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit. Quisquam omnis cumque deleniti, error dolorem tenetur minima molestias ducimus inventore alias.
+    </span>
   </div>
   </div>
   <img className="relative z-0" src="https://i.ibb.co/1sGyJsm/12801392-0788-4138-a1a4-d6ee6a870663-1.png" alt=""/>

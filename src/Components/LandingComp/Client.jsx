@@ -24,7 +24,7 @@
         <div className="animate-infinite-slider flex w-[calc(250px*10)]">
           {LOGOS.map((logo, index) => (
             <div
-              className="slide flex w-[300px] items-center justify-center"
+              className="slide flex w-[150px] md:w-[300px] items-center justify-center"
               key={index}
             >
               {logo}

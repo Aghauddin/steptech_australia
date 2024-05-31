@@ -11,7 +11,7 @@ export default function Banner() {
       <a href="/about-us" className="my-4 inline-block rounded-[25px] border border-white bg-transparent 2xl:text-xl px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase">
           read More </a>
     </div>
-    <div className="hidden sm:block">
+    <div className="hidden sm:block mt-0 md:-mt-32 lg:mt-0 2xl:mt-0">
     <img className="h-[450px] md:h-[550px] 2xl:h-[800px] object-cover object-center z-10 -mt-24 md:mt-5 ml-16 md:ml-5 2xl:ml-10 2xl:mt-16 rounded-full" src="https://i.ibb.co/pKjrdzb/image.png" alt=""/>
     <img src="https://i.ibb.co/x79TdG2/19350162796077-Converted-01-1-1.png" alt="banner-logo" 
     className="lg:h-full lg:w-full md:h-full -mt-103 md:-mt-130  2xl:-ml-8 2xl:-mt-114 z-20 object-cover object-center motion-safe:animate-pulse"/>

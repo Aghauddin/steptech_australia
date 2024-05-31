@@ -47,8 +47,8 @@ export default function Portfolio() {
           src="https://i.ibb.co/7CLtZsw/Untitled-1.png"
           alt="gallery-photo"
             />
-            <div className={`absolute inset-0 flex justify-center items-center transform translate-y-3 2xl:translate-y-8 md:translate-y-1 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden  ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+            <div className={`absolute inset-0 flex justify-center items-center transform translate-y-[17rem] 2xl:translate-y-8 md:translate-y-[16rem]  lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden  ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -56,7 +56,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-48 md:top-80 left-20 right-50 bottom-0 flex justify-start items-start bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-start items-start bg-white opacity-1 hover:opacity-100 transition-opacity  duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 1
@@ -70,8 +70,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/Dr33W0z/image.png"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-32 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -79,7 +79,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 2
@@ -93,8 +93,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/YfsN7MC/image.png"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -102,7 +102,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 3
@@ -116,8 +116,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/tHPsLry/web-2.png"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-5 2xl:translate-y-6 md:translate-y-4 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start  ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start  ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -125,7 +125,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-80 md:top-100 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 4
@@ -143,8 +143,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/2MPpYBg/image.png"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -152,7 +152,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 5
@@ -166,8 +166,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/jgrG9J8/image.png"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -175,7 +175,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 6
@@ -189,8 +189,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/bWjQTnT/web.png"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-5 2xl:translate-y-6 md:translate-y-4 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -198,7 +198,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-80 md:top-100 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
             <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 7
@@ -212,8 +212,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/b6ZgFQt/Untitled-2.png"
                 alt="gallery-photo"
               />
-              <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-3 2xl:translate-y-8 md:translate-y-1 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-[17rem] 2xl:translate-y-8 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -221,7 +221,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-48 md:top-80 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent  bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 8
@@ -240,8 +240,8 @@ export default function Portfolio() {
           src="https://i.ibb.co/6gQQJnW/gra.png"
           alt="gallery-photo"
             />
-            <div className={`absolute inset-0 flex justify-center items-center transform translate-y-3 2xl:translate-y-4 md:translate-y-1 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+            <div className={`absolute inset-0 flex justify-center items-center transform translate-y-[17rem] 2xl:translate-y-4 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -249,7 +249,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-48 md:top-80 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 1
@@ -263,8 +263,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/Npbhmg7/gra.jpg"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-9 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -272,7 +272,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 2
@@ -286,8 +286,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/6YGtQph/gra2.jpg"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-9 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -295,7 +295,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 3
@@ -309,8 +309,8 @@ export default function Portfolio() {
                 src="https://i.ibb.co/74f5kh1/5-1.jpg"
                 alt="gallery-photo"
               />
-              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-5 2xl:translate-y-7 md:translate-y-4 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-            <div className="text-start ml-28 md:ml-0">
+              <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] 2xl:translate-y-7 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+            <div className="text-start ml-40 md:ml-24 lg:ml-0">
             <h2 className="text-xl font-bold">Title</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -318,7 +318,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute top-80 md:top-100 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`absolute top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 4
@@ -335,8 +335,8 @@ export default function Portfolio() {
       src="https://i.ibb.co/j89syVR/Stationery-Mockup003.jpg"
       alt="gallery-photo"
     />
-    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-9 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -344,7 +344,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 5
@@ -358,8 +358,8 @@ export default function Portfolio() {
       src="https://i.ibb.co/JjPDJW5/image.png"
       alt="gallery-photo"
     />
-    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-9 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -367,7 +367,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 6
@@ -381,8 +381,8 @@ export default function Portfolio() {
       src="https://i.ibb.co/Nmddmq0/5-12.jpg"
       alt="gallery-photo"
     />
-    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-5 2xl:translate-y-7 md:translate-y-4 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] 2xl:translate-y-7 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -390,7 +390,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute top-80 md:top-100 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
   <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 7
@@ -404,8 +404,8 @@ export default function Portfolio() {
       src="https://i.ibb.co/SJHK7CK/grap-2.png"
       alt="gallery-photo"
     />
-    <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-3 2xl:translate-y-4 md:translate-y-1 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+    <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-[17rem] 2xl:translate-y-4 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -413,7 +413,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute top-48 md:top-80 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent  bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 8
@@ -432,8 +432,8 @@ className="h-auto w-full rounded-lg object-cover object-center"
 src="https://i.ibb.co/z8zPDm7/Untitle.png"
 alt="gallery-photo"
   />
-  <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-3 2xl:translate-y-8 md:translate-y-1 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+  <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-[17rem] 2xl:translate-y-8 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -441,7 +441,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute top-48 md:top-80 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 1
@@ -455,8 +455,8 @@ alt="gallery-photo"
       src="https://i.ibb.co/kDYfwKc/3.png"
       alt="gallery-photo"
     />
-    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -464,7 +464,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 2
@@ -478,8 +478,8 @@ alt="gallery-photo"
       src="https://i.ibb.co/pnWg0Gt/8.jpg"
       alt="gallery-photo"
     />
-    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -487,7 +487,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 3
@@ -501,8 +501,8 @@ alt="gallery-photo"
       src="https://i.ibb.co/gwjs654/3.png"
       alt="gallery-photo"
     />
-    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-5 2xl:translate-y-6 md:translate-y-4 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-  <div className="text-start ml-28 md:ml-0">
+    <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+  <div className="text-start ml-40 md:ml-24 lg:ml-0">
   <h2 className="text-xl font-bold">Title</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -510,7 +510,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute top-80 md:top-100 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`absolute top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 4
@@ -527,8 +527,8 @@ className="h-auto w-full rounded-lg object-cover object-center"
 src="https://i.ibb.co/F3t59gz/7.jpg"
 alt="gallery-photo"
 />
-<div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-<div className="text-start ml-28 md:ml-0">
+<div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+<div className="text-start ml-40 md:ml-24 lg:ml-0">
 <h2 className="text-xl font-bold">Title</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -536,7 +536,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute top-24 md:top-36 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`absolute top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 5
@@ -550,8 +550,8 @@ className="h-auto w-full rounded-lg object-cover object-center"
 src="https://i.ibb.co/MVzktr3/image.png"
 alt="gallery-photo"
 />
-<div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-10 2xl:translate-y-5 md:translate-y-2 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-<div className="text-start ml-28 md:ml-0">
+<div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+<div className="text-start ml-40 md:ml-24 lg:ml-0">
 <h2 className="text-xl font-bold">Title</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -559,7 +559,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute top-24 md:top-28 left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`absolute top-16 md:top-16 lg:top-28 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 6
@@ -573,8 +573,8 @@ className="h-auto w-full rounded-lg object-cover object-center"
 src="https://i.ibb.co/TWfQn3m/image.png"
 alt="gallery-photo"
 />
-<div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-5 2xl:translate-y-6 md:translate-y-4 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-<div className="text-start ml-28 md:ml-0">
+<div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+<div className="text-start ml-40 md:ml-24 lg:ml-0">
 <h2 className="text-xl font-bold">Title</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -582,7 +582,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute top-80 md:top-100 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`absolute top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 7
@@ -596,8 +596,8 @@ className="h-auto w-full rounded-lg object-cover object-center"
 src="https://i.ibb.co/2n2vP1x/Un.png"
 alt="gallery-photo"
 />
-<div className={`absolute inset-0 flex justify-center items-center transform translate-y-3 2xl:translate-y-8 md:translate-y-1 hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
-<div className="text-start ml-28 md:ml-0">
+<div className={`absolute inset-0 flex justify-center items-center transform translate-y-[17rem] 2xl:translate-y-8 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
+<div className="text-start ml-40 md:ml-24 lg:ml-0">
 <h2 className="text-xl font-bold">Title</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
@@ -605,7 +605,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute top-48 md:top-80 left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`absolute top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent  bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 8

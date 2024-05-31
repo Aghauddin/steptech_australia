@@ -14,7 +14,7 @@ export default function Footer() {
         <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
           <li>
             <a
-              href="#"
+              href="https://www.facebook.com/steptechglobal/"
               rel="noreferrer"
               target="_blank"
               className="text-white"
@@ -33,7 +33,7 @@ export default function Footer() {
 
           <li>
             <a
-              href="#"
+              href="https://www.instagram.com/steptech_global/"
               rel="noreferrer"
               target="_blank"
               className="text-white"
@@ -50,7 +50,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/steptechglobal"
               rel="noreferrer"
               target="_blank"
               className="text-white"
@@ -66,7 +66,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href="#"
+              href="https://twitter.com/Steptechglobal"
               rel="noreferrer"
               target="_blank"
               className="text-white"
@@ -158,14 +158,14 @@ export default function Footer() {
           <p className="text-lg font-medium text-white 2xl:text-xl">Contact Us</p>
 
           <ul className="mt-8 space-y-4 text-sm -ml-0 md:-ml-2">
-            <li className="-ml-0 md:-ml-2">
+            <li className="-ml-0  md:ml-4 lg:-ml-2">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="mailto:steptechaustralia@gmail.com"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 shrink-0 text-white"
+                  className="size-6 shrink-0 text-white ml-8 md:ml-0 2xl:ml-0"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -178,18 +178,18 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span className="flex-1 text-white text-sm md:text-sm">steptechaustralia@gmail.com</span>
+                <span className="flex-1 text-white text-sm md:text-sm -ml-16 md:ml-0 2xl:ml-0">steptechaustralia@gmail.com</span>
               </a>
             </li>
 
-            <li className="sm:-ml-0 lg:-ml-4">
+            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="tel:+61410025346"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 shrink-0 text-white"
+                  className="size-6 shrink-0 text-white ml-8 md:ml-0 2xl:ml-0"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -202,11 +202,11 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span className="flex-1 text-white text-md 2xl:text-xl">+61 410 025 346</span>
+                <span className="flex-1 text-white text-md 2xl:text-xl -ml-16 md:-ml-0 lg:ml-0">+61 410 025 346</span>
               </a>
             </li>
 
-            <li className="sm:-ml-0 lg:-ml-4">
+            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="https://maps.app.goo.gl/W7mzU6nfSoYW25uJ9"
@@ -215,7 +215,7 @@ export default function Footer() {
               >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="size-6 shrink-0 text-white"
+                className="size-6 shrink-0 text-white ml-8 md:ml-0 2xl:ml-0"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -233,7 +233,7 @@ export default function Footer() {
                 />
               </svg>
 
-              <address className="-mt-0.5 flex-1 not-italic text-white 2xl:text-xl">
+              <address className="-mt-0.5 flex-1 not-italic text-white 2xl:text-xl -ml-16 md:ml-0 2xl:ml-0">
               Australia
               </address>
               </a>

@@ -7,14 +7,14 @@ export default function Services() {
               services
               </h1>
               </div>
-<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     <div className="bg-[#290069] border-[#290069] rounded-xl hover:bg-gradient-to-b from-[#D000E7] to-[#5100CF]">
     <img className="h-20 m-5" src="https://i.ibb.co/CV4yN0K/Group-1.png" alt=""/>
     <h2 className="justify-content align-items flex text-xl font-bold tracking-tight sm:text-4xl lg:text-2xl m-5 capitalize text-white 2xl:text-3xl">
-        UI & UX Design
+    <a href='/blockchain-development'>Block Chain</a>
     </h2>
     <p className="m-4 text-lg text-white 2xl:text-xl">
-    When it comes to our clients, we develop a UI UX design which conveys their brand's essence while appealing to all of their target audiences. Whether they cater to just one ideal client persona or many, we create valuable designs for every person.
+    By using our skills in Blockchain development, we help businesses in focusing on the infinite possibilities of this decentralized technology and create fresh opportunities for expansion and inno-vation. Our expert blockchain development services are designed to help you eliminate these challenges and realize your goals.
     </p>
     </div>
     <div className="bg-[#290069] border-[#290069] rounded-xl hover:bg-gradient-to-b from-[#D000E7] to-[#5100CF]">
@@ -47,19 +47,19 @@ export default function Services() {
     <div className="bg-[#290069] border-[#290069] rounded-xl hover:bg-gradient-to-b from-[#D000E7] to-[#5100CF]">
     <img className="h-20 m-5" src="https://i.ibb.co/qkqPK30/Group-4.png" alt=""/>
     <h2 className="justify-content align-items flex text-xl font-bold tracking-tight sm:text-4xl lg:text-2xl m-5 capitalize text-white 2xl:text-3xl">
-    Digital Marketing
+    <a href='/ecommerce'>E-commerce</a>
     </h2>
     <p className="m-4 text-lg text-white 2xl:text-xl">
-    Our digital marketing agency has always planned to deliver keenly priced marketing services. We've created a large platform of marketing and advertising services for businesses of any kind. You can increase website traffic, brand exposure, and ROI with results-oriented digital marketing strategies.
+    Having mastered the details of e-commerce web design and offered global e-commerce website development services, our expertise is unparalleled. With an unbreakable commitment to offering excellent e-commerce web development services, our skill set does not vary by location.
     </p>
     </div>
     <div className="bg-[#290069] border-[#290069] rounded-xl hover:bg-gradient-to-b from-[#D000E7] to-[#5100CF]">
       <img className="h-20 m-5" src="https://i.ibb.co/xXJgY18/Group-5.png" alt=""/>
       <h2 className="justify-content align-items flex text-xl font-bold tracking-tight sm:text-4xl lg:text-2xl m-5 capitalize text-white 2xl:text-3xl">
-      Game Development
+      <a href='/search-enigne-optimization'>SEO</a>
     </h2>
     <p className="m-4 text-lg text-white 2xl:text-xl">
-    We offer extensive services for developing games in broad pre-production, production, and post-production processes. We attempt to offer your user unbelievable, compelling visuals, smooth gameplay, engaging narratives, and more.
+    At Step Tech AU, we blend tech mixed with human elements. As your preferred SEO marketing business, we use smart automation to enhance your strategy never taking the place of the great deal of care that we put into learning about your brand. Every advertising effort is distinct; they are not simply the product of algorithms.
     </p>
     </div>
 </div>

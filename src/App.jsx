@@ -8,13 +8,13 @@ import Seo from './Pages/Seo';
 import Ecommerce from './Pages/Ecommerce';
 import NFT from './Pages/NFT';
 import ArtificialIntel from './Pages/ArtificialIntel';
-import AIIntelBlog from './Pages/AIIntelBlog'
+import AIIntelBlog from './Pages/AIIntelBlog';
+import AIIntelBlog1 from './Pages/AIIntelBlog1';
 
 
 import Home from './Pages/Home';
 
 
-import Service from './Pages/Service';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Blog from './Pages/Blogs';
@@ -37,11 +37,11 @@ function App() {
         <Route exact path='/ecommerce' element={<Ecommerce/>}/>
         <Route exact path='/nft' element={<NFT/>}/>
         <Route exact path='/artificial-intelligence' element={<ArtificialIntel/>}/>
-        <Route exact path='/services' element={<Service/>}/>
         <Route exact path='/about-us' element={<About/>}/>
         <Route exact path='/portfolio' element={<Portfolio/>}/>
         <Route exact path='/blog' element={<Blog/>}/>
         <Route exact path='/artficial-intelligence' element={<AIIntelBlog/>}/>
+        <Route exact path='/artficial-intelligence1' element={<AIIntelBlog1/>}/>
       </Routes>
     </Router>
   );

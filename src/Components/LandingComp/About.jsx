@@ -5,7 +5,7 @@ export default function About() {
   <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-2">
     <div className="mt-28">
     <div className="inline-flex items-center justify-center flex-shrink-0 md:h-full h-[300px] lg:h-[400px] w-full mx-auto mb-5 bg-transparent rounded-xl">
-        <img className="h-[300px] md:h-[520px] object-cover object-center z-10 mt-16 -ml-5 md:-ml-32" src="https://i.ibb.co/pKjrdzb/image.png"  alt="" />     
+        <img className="h-[300px] md:h-[350px] lg:h-[520px] object-cover object-center z-10 mt-16 -ml-5 md:ml-20 lg:-ml-32" src="https://i.ibb.co/pKjrdzb/image.png"  alt="" />     
         <img className='h-full lg:h-full object-cover object-center -ml-72 md:-ml-121 z-40' src='https://i.ibb.co/xYQsYg6/Group-4-1.png' alt=''/>
       </div>
     </div>

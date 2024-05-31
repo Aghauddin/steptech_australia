@@ -35,7 +35,7 @@ export default function Contact() {
         if (name === 'phone' && !value.trim()) {
             setErrors({
                 ...errors,
-                phone: 'Phone is required'
+                phone: 'Number is required'
             });
             return;
         }
@@ -130,35 +130,50 @@ export default function Contact() {
     return (
 <div className="relative mx-auto max-w-full lg:px-8 pb-24">
             <div>
-                <div className="grid md:grid-cols-2 sm:grid-cols-1 items-center gap-0">
-                    <div className="bg-[#9F9FDD] p-5 md:rounded-tr-[5rem] rounded-tr-[4rem]">
-                     <h2 className="font-bold tracking-tight text-4xl lg:text-4xl sm:text-6xl capitalize text-transparent bg-clip-text bg-[#290069]">
+                <div className="grid md:grid-cols-2 sm:grid-cols-1 items-center gap-0 mt-16 md:mt-0 2xl:mt-0">
+                    <div className="bg-[#9F9FDD] p-5 md:rounded-tr-[7.9rem] rounded-tr-[4rem]">
+                     <h2 className="font-bold tracking-tight text-4xl md:text-4xl lg:text-5xl capitalize text-transparent bg-clip-text bg-[#290069]">
                          contact us </h2>
-                        <form onSubmit={handleSubmit} className="mt-8 space-y-4">
-                          <input type='text' placeholder='FirstName' name="firstName" value={formData.firstName} onChange={handleChange} className="flex-1 justify-center items-center rounded-md py-3 px-7 w-full text-sm outline-[#290069] 2xl:text-xl"/>
-                          {errors.firstName && <span className="text-[red]">{errors.firstName}</span>}
-                          <input type='text' placeholder='LastName' name="lastName" value={formData.lastName} onChange={handleChange} className="flex-1 justify-center items-center rounded-md py-3 px-7 w-full text-sm outline-[#290069] 2xl:text-xl" />                        
-                          {errors.lastName && <span className="text-[red]">{errors.lastName}</span>}
-                          <input type='email' placeholder='Email' name="email" value={formData.email} onChange={handleChange} className="flex-1 justify-center items-center rounded-md py-3  px-7 w-full text-sm outline-[#290069] 2xl:text-xl" />
-                          {errors.email && <span className="text-[red]">{errors.email}</span>}
-                          <input type='tel' maxLength="12" pattern="\+?\d{11,12}" placeholder='Number' name="phone" newvalue={formData.phone} onChange={handleChange} className="flex-1 justify-center items-center rounded-md py-3 px-7 w-full text-sm outline-[#290069] 2xl:text-xl"/>                    
-                          {errors.phone && <span className="text-[red]">{errors.phone}</span>}
-                           <textarea placeholder='Message' rows="6" name="message" value={formData.message} onChange={handleChange} className="w-full rounded-md px-4 text-sm pt-3 outline-[#290069] 2xl:text-xl"></textarea>
-                           {errors.message && <span className="text-[red]">{errors.message}</span>}
-                            <button type='submit'
-                                className="text-white bg-g-purple font-semibold rounded-md text-sm px-4 py-3 flex items-center justify-center w-full 2xl:text-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' className="mr-2" viewBox="0 0 548.244 548.244">
-                                    <path fillRule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clipRule="evenodd" data-original="#000000" />
-                                </svg>
-                                Send Message
-                            </button>
-                        </form>
+                         <form onSubmit={handleSubmit} class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>First Name
+                        <input type='text' placeholder='FirstName'
+                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            {errors.firstName && <span className="text-[red]">{errors.firstName}</span>}
+                        </div>
+                        <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>Last Name
+                        <input type='text' placeholder='LastName'
+                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            {errors.lastName && <span className="text-[red]">{errors.lastName}</span>}
+                        </div>
+                        <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>E-mail
+                        <input type='email' placeholder='Email'
+                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            {errors.email && <span className="text-[red]">{errors.email}</span>}
+                        </div>
+                        <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>Number
+                        <input type='text' placeholder='Number'
+                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            {errors.phone && <span className="text-[red]">{errors.phone}</span>}
+                        </div>
+                       <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>Message
+                       <textarea placeholder='Message' rows="6" class="col-span-full w-full md:w-105 lg:w-99 mt-2 rounded px-4 border-2 text-sm pt-3 
+                       outline-[#290069]"></textarea>
+                       {errors.message && <span className="text-[red]">{errors.message}</span>}
+                        <button type='submit'
+                            class="text-white w-full md:w-105 lg:w-99 mt-4 bg-[#007bff] bg-g-purple font-semibold rounded text-sm px-6 py-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' class="mr-2 inline" viewBox="0 0 548.244 548.244">
+                                <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
+                            </svg>
+                            Send Message
+                        </button>
+                        </div>
+                    </form>
                     </div>
-                    <div className='relative rounded-bl-[4rem] bg-g-purple -ml-0 md:-ml-3 pt-36 pb-36 pl-0 md:pl-24'>
-                    <img className="h-[20rem] w-0 md:w-full md:h-[31.25rem] object-cover object-center z-0 absolute -mt-5 md:-mt-20 -ml-5 md:-ml-16 rounded-full opacity-40" src="https://i.ibb.co/pKjrdzb/image.png"  alt="" />
-                        <p className="relative text-xl text-white mt-3 2xl:text-2xl">Take your business higher than ever of accomplishment with our unrivaled administrations.</p>
-                        <p className="relative text-xl text-white mt-3 2xl:text-2xl">Reach out at this point!</p>
-                        <ul className="relative mt-12 space-y-8">
+                    <div className='relative rounded-bl-[4rem] bg-g-purple -ml-0 md:-ml-2 lg:-ml-8 w-full pt-32 pb-36 pl-0 md:pl-24'>
+                    <img className="h-[20rem] w-0 md:w-full md:h-[31.25rem] object-cover object-center z-0 absolute -mt-5 md:-mt-20 -ml-5 md:-ml-24 lg:-ml-16 rounded-full opacity-40" src="https://i.ibb.co/pKjrdzb/image.png"  alt="" />
+                        <p className="relative text-xl text-white mt-3 2xl:text-2xl pl-3 ml-0 md:-ml-14 lg:ml-0 md:pl-0 2xl:pl-0">Take your business higher than ever of accomplishment with our unrivaled administrations.</p>
+                        <p className="relative text-xl text-white mt-3 2xl:text-2xl pl-3 ml-0 md:-ml-14 lg:ml-0 md:pl-0 2xl:pl-0">Reach out at this point!</p>
+                        <ul className="relative mt-12 space-y-8 pl-3 ml-0 md:-ml-14 lg:ml-0 md:pl-0 2xl:pl-0">
                             <li className="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill='#fff'
                                     viewBox="0 0 479.058 479.058">

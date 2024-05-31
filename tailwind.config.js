@@ -83,10 +83,14 @@ export default {
 
       width: {
         '97': '25rem',
+        '98': '30.8rem',
+        '99': '35rem',
         '100': '39rem',
         '101': '40.15rem',
         '102': '60rem',
-        '103': '90rem'
+        '103': '90rem',
+        '104': '45rem',
+        '105': '21.5rem',
       },
       borderWidth: {
         '9': '9px',
@@ -94,6 +98,9 @@ export default {
         '11': '11px',
         '12': '12px',
         '13': '13px',
+      },
+      padding: {
+          '37': '9rem',
       },
       inset: {
         '100': '38rem',
