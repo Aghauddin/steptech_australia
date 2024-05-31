@@ -4,7 +4,7 @@ export default function Banner() {
   <div>
     <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-2 mt-10">
       <div className="p-10 flex flex-col justify-center items-center">
-        <h1 className="mx-auto mb-8 text-5xl lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+        <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
         Hello To  Your Business Growth With Our <span className="text-[#D000E7]">E-Commerce Development Services</span>
         </h1>
         <p className="mx-auto text-base leading-relaxed text-white text-3xl lg:text-2xl sm:text-3xl 2xl:text-4xl">Are you searching to untie the highest potential of your <b>e-commerce</b> business? At Step Tech, an <b>e-commerce development agency</b>, we’re here to make your business stand at the cutting edge of digital advancement and creativity</p>

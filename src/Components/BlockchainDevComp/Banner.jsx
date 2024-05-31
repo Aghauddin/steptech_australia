@@ -4,7 +4,7 @@ export default function Banner() {
   <div>
     <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-2 mt-10">
       <div className="p-10 flex flex-col justify-center items-center">
-        <h1 className="mx-auto mb-8 text-5xl lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+        <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
         Ride On The Wave Of Innovation With Our <span className="text-[#D000E7]">Blockchain Development Services</span>
         </h1>
         <p className="mx-auto text-base leading-relaxed text-white text-3xl lg:text-2xl sm:text-3xl 2xl:text-4xl">Step Tech, a leading <b>blockchain development agency</b> in Australia, offers end-to-end solutions to meet your needs, drive your performance, and give you that competitive edge</p>

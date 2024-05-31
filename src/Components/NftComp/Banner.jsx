@@ -4,7 +4,7 @@ export default function Banner() {
   <div>
     <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-2 mt-10">
       <div className="p-10 flex flex-col justify-center items-center">
-        <h1 className="mx-auto mb-8 text-5xl lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+        <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
         Best <span className="text-[#D000E7]">NFT Marketplace Development Company</span> In Australia
         </h1>
         <p className="mx-auto text-base leading-relaxed text-white text-3xl lg:text-2xl sm:text-3xl 2xl:text-4xl">Get our authorized <b>NFT market development services</b> to help you create and launch scalable, profitable, and trustworthy NFT marketplace platforms on various blockchain networks, including Ethereum, Polkadot, and Avalanche</p>

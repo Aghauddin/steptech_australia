@@ -10,7 +10,7 @@ export default function Services() {
           />
           </div>
           <div className="p-10 flex flex-col justify-center items-center">
-            <h1 className="mx-auto mb-8 text-5xl lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+            <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
             Leverage the Expertise of Our <span className="text-[#D000E7]">NFT Development Services</span>
             </h1>
             <p className="mx-auto text-base leading-relaxed text-white text-xl lg:text-xl 2xl:text-4xl">Our digital marketing company is pro in providing NFT development services to companies, so they are taking advantage of this inventive new technology. Using our NFT development services, you could connect with an expanding community of investors and collectors keen to acquire unique digital assets. From developing the digital asset to minting and distributing the NFT, we can help you along the way</p>

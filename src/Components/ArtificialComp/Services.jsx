@@ -10,7 +10,7 @@ export default function Services() {
           />
           </div>
           <div className="p-10 flex flex-col justify-center items-center">
-            <h1 className="mx-auto mb-8 text-5xl lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+            <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
             Take Leverage With Our <span className="text-[#D000E7]">AI Development Services</span>
             </h1>
             <p className="mx-auto text-base leading-relaxed text-white text-xl lg:text-xl 2xl:text-4xl">At Step Tech AU, Our <b>AI app development services</b> are designed to help businesses of every type achieve advanced stages in their daily operations. We use the most recent machine learning, natural language processing, and other AI-related technologies to meet the rising need for mobile apps with AI capabilities</p>

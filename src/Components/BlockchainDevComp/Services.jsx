@@ -10,7 +10,7 @@ export default function Services() {
           />
           </div>
           <div className="p-10 flex flex-col justify-center items-center">
-            <h1 className="mx-auto mb-8 text-5xl lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+            <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
             Take Leverage of Our <span className="text-[#D000E7]">Blockchain Development Services</span>
             </h1>
             <p className="mx-auto text-base leading-relaxed text-white text-xl lg:text-xl 2xl:text-4xl">We have a team of professionals who develop a digital strategy that promotes your business's objectives and strengthens your present workflow. We help companies and startups utilize the decentralized network that blockchain technology developed as an expert blockchain development company. If you're looking for blockchain and metaverse development services, cryptocurrency development services, or innovative contract development services, you've come to the correct place</p>

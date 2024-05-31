@@ -137,22 +137,22 @@ export default function Contact() {
                          <form onSubmit={handleSubmit} class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>First Name
                         <input type='text' placeholder='FirstName'
-                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            className="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
                             {errors.firstName && <span className="text-[red]">{errors.firstName}</span>}
                         </div>
                         <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>Last Name
                         <input type='text' placeholder='LastName'
-                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            className="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
                             {errors.lastName && <span className="text-[red]">{errors.lastName}</span>}
                         </div>
                         <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>E-mail
                         <input type='email' placeholder='Email'
-                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            className="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
                             {errors.email && <span className="text-[red]">{errors.email}</span>}
                         </div>
                         <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>Number
                         <input type='text' placeholder='Number'
-                            class="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
+                            className="w-full md:-full lg:w-60 rounded py-2.5 px-4 border-2 font-semibold text-sm mt-2 outline-[#290069]" />
                             {errors.phone && <span className="text-[red]">{errors.phone}</span>}
                         </div>
                        <div className='text-black font-bold text-sm md:text-sm lg:text-[1.235rem]'>Message
@@ -160,7 +160,7 @@ export default function Contact() {
                        outline-[#290069]"></textarea>
                        {errors.message && <span className="text-[red]">{errors.message}</span>}
                         <button type='submit'
-                            class="text-white w-full md:w-105 lg:w-99 mt-4 bg-[#007bff] bg-g-purple font-semibold rounded text-sm px-6 py-3">
+                            className="text-white w-full md:w-105 lg:w-99 mt-4 bg-[#007bff] bg-g-purple font-semibold rounded text-sm px-6 py-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' class="mr-2 inline" viewBox="0 0 548.244 548.244">
                                 <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
                             </svg>
