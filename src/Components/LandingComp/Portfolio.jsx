@@ -15,7 +15,7 @@ export default function Portfolio() {
         <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
             read More </a>
       </div>
-      <div className="p-2">
+      <div className="p-2 2xl:ml-60">
         <div className="inline-flex items-center justify-center flex-shrink-0 h-5/6  lg:h-5/6 sm:h-full mx-auto mb-5 bg-transparent border-13 border-[#9F9FDD] rounded-xl overflow-hidden md:overflow-visible">
           <img className='md:translate-x-12 md:-translate-y-12 delay-200 ease-in-out duration-300 md:hover:translate-x-0 md:hover:-translate-y-0' src='https://i.ibb.co/j8rSdq3/Mockup-3-motor-mods-01-01.png' alt=''/>
         </div>
@@ -37,7 +37,7 @@ export default function Portfolio() {
         <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
             read More </a>
       </div>
-      <div className="p-2">
+      <div className="p-2 2xl:ml-60">
         <div className="inline-flex items-center justify-center flex-shrink-0 h-5/6  lg:h-5/6 sm:h-full mx-auto mb-5 bg-transparent border-13 border-[#9F9FDD] rounded-xl overflow-hidden md:overflow-visible">
           <img className='md:translate-x-12 md:-translate-y-12 delay-200 ease-in-out duration-300 md:hover:translate-x-0 md:hover:-translate-y-0' src='https://i.ibb.co/10RX8hd/Mockup-2-doctor-aid-01.png' alt=''/>
         </div>
