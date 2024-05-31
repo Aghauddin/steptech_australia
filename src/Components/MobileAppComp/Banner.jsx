@@ -4,7 +4,7 @@ export default function Banner() {
   <div>
     <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-2 mt-10">
       <div className="p-10 flex flex-col justify-center items-center">
-        <h1 className="mx-auto mb-8 text-5xl lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+        <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl  2xl:text-7xl font-bold leading-none tracking-tighter text-white">
         Bring Life to Your Digital Dream With Our <span className="text-[#D000E7]">App Development UI/UX Service</span>
         </h1>
         <p className="mx-auto text-base leading-relaxed text-white text-3xl lg:text-2xl sm:text-3xl 2xl:text-4xl">Be ready to maximize the potential of your business and transform your idea into digital reality with Step Tech, <b>a top app development company</b>, where our designers offer a pleasing user interface (UI) and an easy, simple UX to ensure change, interaction, and easy use</p>

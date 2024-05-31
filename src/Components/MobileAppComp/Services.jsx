@@ -10,7 +10,7 @@ export default function Services() {
           />
           </div>
           <div className="p-10 flex flex-col justify-center items-center">
-            <h1 className="mx-auto mb-8 text-5xl lg:text-5xl font-bold leading-none tracking-tighter text-white">
+            <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-5xl font-bold leading-none tracking-tighter text-white">
             Take the Advantage With Our UI/UX Design Service For <span className="text-[#D000E7]">Mobile App Development</span>
             </h1>
             <p className="mx-auto text-base leading-relaxed text-white text-3xl lg:text-lg 2xl:text-4xl">Our in-depth knowledge of creating <b>mobile applications</b> adds to our ability to offer 360-degree advanced web app solutions. With our adept app developers at your fingertips, you can continually focus on PWA development to deliver quick, engaging, and cross-platform user experiences. To deliver strongly organized and imaginatively created <b>mobile application development and design services</b> that will take your project to the next level, we have a perform stack team including <b>UI/UX designers</b>, mobile app developers, and quality experts at our company</p>

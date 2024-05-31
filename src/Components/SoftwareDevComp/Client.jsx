@@ -7,31 +7,31 @@
         <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-2">
           <div className="mb-2 p-10 flex flex-col justify-center items-center">
           <div className="flex items-start gap-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 -ml-0 md:-ml-7 inline-flex justify-start items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 -ml-0 md:-ml-52 lg:-ml-10 inline-flex justify-start items-start">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
             </svg>
             <p className="text-base leading-relaxed text-white text-2xl lg:text-xl  2xl:text-4xl">We offer services that help drive your business to success</p>
             </div>
             <div className="flex items-start gap-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6 inline-flex justify-start items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6 md:w-5 h-6 md:-ml-1 lg:ml-0 inline-flex justify-start items-start">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
             </svg>
             <p className="text-base leading-relaxed text-white text-2xl lg:text-xl  2xl:text-4xl">Our first aim is to deliver significant and verifiable outcomes that benefit our clients' bottom lines</p>
             </div>
             <div className="flex items-start gap-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-8 h-6 inline-flex justify-start items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-8 h-6 md:w-6 h-6 md:-ml-1 lg:ml-0 inline-flex justify-start items-start">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
             </svg>
             <p className="text-base leading-relaxed text-white text-2xl lg:text-xl  2xl:text-4xl">We are known for using Agile development best practices and methods to deliver exceptional solutions on time and as promised</p>
             </div>
             <div className="flex items-start gap-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 inline-flex justify-start items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 md:w-4 h-6 md:-ml-24 lg:ml-0 inline-flex justify-start items-start">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
             </svg>
             <p className="text-base leading-relaxed text-white text-2xl lg:text-xl  2xl:text-4xl">We are proud of the quality of our code and value the artistry of software</p>
             </div>
             <div className="flex items-start gap-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 inline-flex justify-start items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 md:w-4 h-6 md:-ml-40 lg:ml-0 inline-flex justify-start items-start">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
             </svg>
             <p className="text-base leading-relaxed text-white text-2xl lg:text-xl  2xl:text-4xl">Our team offers creative thinking, productivity, and commitment</p>

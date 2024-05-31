@@ -31,7 +31,7 @@
             <p className="text-base leading-relaxed text-white text-2xl lg:text-xl 2xl:text-4xl">Our team of skilled developers assists by thinking creatively and coming up with novel concepts</p>
             </div>
             <div className="flex items-start gap-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 inline-flex justify-start items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-4 h-6 md:-ml-[5.2rem] lg:ml-0 inline-flex justify-start items-start">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
             </svg>
             <p className="text-base leading-relaxed text-white text-2xl lg:text-xl 2xl:text-4xl">Our business is well-known for its ability to complete all jobs on timescale</p>

@@ -10,7 +10,7 @@ export default function Services() {
           />
           </div>
           <div className="p-10 flex flex-col justify-center items-center">
-            <h1 className="mx-auto mb-8 text-5xl lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
+            <h1 className="mx-auto mb-8 text-[2.7rem] lg:text-6xl 2xl:text-7xl font-bold leading-none tracking-tighter text-white">
             Take Advantage With Our <span className="text-[#D000E7]">Custom Software Development Services</span>
             </h1>
             <p className="mx-auto text-base leading-relaxed text-white text-xl lg:text-xl 2xl:text-4xl">Step Tech AU is a valued <b>software development company in Australia</b> with experience in developing imaginative customized solutions for various industries. Many companies from various industries can benefit from our customized software development solution. Our bespoke <b>software development</b> in Australia may help you innovate software solutions while saving time and money since it removes the requirement for internal recruiting and training</p>
