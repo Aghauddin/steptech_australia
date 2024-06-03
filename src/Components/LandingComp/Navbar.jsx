@@ -67,7 +67,7 @@ function Navbar() {
               {/* Dropdown menu */}
               <div
                 id="dropdownNavbar"
-                className={`md:absolute z-30 ${isDropdownOpen ? '' : 'hidden'} font-normal md:font-bold text-black rounded-lg shadow w-56 md:w-104 lg:w-102 2xl:w-103 flex justify-center items-center ml-0 mt-0 md:-ml-64 lg:-ml-96 2xl:-ml-110 md:mt-3 bg-[#D9D9EE]`}
+                className={`md:absolute z-30 ${isDropdownOpen ? '' : 'hidden'} font-normal md:font-bold text-black rounded-lg shadow w-56 md:w-104 lg:w-102 2xl:w-103 flex justify-center items-center ml-0 mt-0 md:-ml-64 lg:-ml-96 2xl:-ml-110 md:mt-3 p-3 bg-[#EDEDFF]`}
               >
                 <ul className="py-2 text-sm text-white" aria-labelledby="dropdownLargeButton">
                 <div className='grid md:grid-cols-3 sm:grid-cols-1'>

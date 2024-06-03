@@ -4,7 +4,7 @@ export default function Footer() {
   <div className="relative mx-auto max-w-full px-0 sm:static sm:px-6 lg:px-0 pb-5">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
-        <div className="flex justify-center text-white sm:justify-start">
+        <div className="flex justify-center text-white sm:justify-start ml-0 md:ml-0 lg:ml-16">
         <img className="h-full w-auto" src="https://i.ibb.co/sK6v4j6/logo-05-1.png"alt="Company"/>
         </div>
         <p className="mt-6 max-w-xl text-center leading-relaxed text-white text-lg sm:max-w-xs sm:text-left 2xl:text-2xl">
@@ -108,7 +108,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="text-center sm:text-left">
+        <div className="text-center sm:text-left ml-0 md:ml-0 lg:-ml-16">
           <p className="text-lg font-medium text-white 2xl:text-xl">Our Services</p>
 
           <ul className="mt-8 space-y-4 text-sm">
@@ -135,7 +135,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="text-center sm:text-left">
+        <div className="text-center sm:text-left ml-0 md:ml-0 lg:-ml-10">
           <p className="text-lg font-medium text-white 2xl:text-xl">Our Services</p>
 
           <ul className="mt-8 space-y-4 text-sm">
@@ -155,10 +155,10 @@ export default function Footer() {
         </div>
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-white 2xl:text-xl">Contact Us</p>
+          <p className="ml-0 md:ml-0 lg:-ml-7 text-lg font-medium text-white 2xl:text-xl">Contact Us</p>
 
           <ul className="mt-8 space-y-4 text-sm -ml-0 md:-ml-2">
-            <li className="-ml-0  md:ml-4 lg:-ml-2">
+            <li className="-ml-0  md:-ml-1 lg:-ml-2">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="mailto:steptechaustralia@gmail.com"

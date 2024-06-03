@@ -1,9 +1,14 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+const flattenColorPalette = require("tailwindcss/lib/util/flattenColorPalette").default;
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -84,7 +89,7 @@ export default {
       width: {
         '97': '25rem',
         '98': '30.8rem',
-        '99': '32.5rem',
+        '99': '33.6rem',
         '100': '39rem',
         '101': '40.15rem',
         '102': '60rem',
@@ -105,20 +110,23 @@ export default {
       },
       inset: {
         '100': '38rem',
-        
-      },
-      animation: {
-        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
-      },
-      keyframes: {
-        infiniteSlider: {
-          "0%": { transform: "translateX(0)" },
-          "100%": {
-            transform: "translateX(calc(-250px * 5))",
-          },
-        },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // rest of the code
+    addVariablesForColors,
+  ],
+};
+
+// This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
+function addVariablesForColors({ addBase, theme }) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+
+  addBase({
+    ":root": newVars,
+  });
 }

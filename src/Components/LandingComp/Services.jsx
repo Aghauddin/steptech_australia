@@ -1,4 +1,3 @@
-
 export default function Services() {
     return (
         <div className="relative mx-auto max-w-full px-4 sm:static sm:px-6 lg:px-8">
