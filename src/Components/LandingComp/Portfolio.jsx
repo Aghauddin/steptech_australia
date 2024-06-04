@@ -1,3 +1,5 @@
+import { HoverBorderGradient } from "../../ui/hover-border-gradient"
+
 export default function Portfolio() {
     return (
 <section>
@@ -11,9 +13,13 @@ export default function Portfolio() {
     <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-2 mt-10 ">
       <div className="p-2 lg:my-10 sm:my-0">
         <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-white lg:text-3xl 2xl:text-4xl">Motor Modz App Solution</h1>
-        <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl">We created Motor Modz in order to meet an increasing need for a centralized auto platform. Realising the challenges buyers and sellers face in this expert business; the developers designed a mobile application to make buying and selling car parts simpler.</p>
-        <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
-            read More </a>
+        <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl mb-5">We created Motor Modz in order to meet an increasing need for a centralized auto platform. Realising the challenges buyers and sellers face in this expert business; the developers designed a mobile application to make buying and selling car parts simpler.</p>
+        <a href="/portfolio">
+        <HoverBorderGradient className="bg-transparent text-white lg:text-md 2xl:text-xl font-bold uppercase"
+            >
+              Read More
+            </HoverBorderGradient> 
+          </a>
       </div>
       <div className="p-2 2xl:ml-60">
         <div className="inline-flex items-center justify-center flex-shrink-0 h-5/6  lg:h-5/6 sm:h-full mx-auto mb-5 bg-transparent border-13 border-[#9F9FDD] rounded-xl overflow-hidden md:overflow-visible">
@@ -27,15 +33,23 @@ export default function Portfolio() {
       </div>
       <div className="p-2 lg:my-10 sm:my-0">
         <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-white lg:text-3xl 2xl:text-4xl">Stylista Application Solution</h1>
-        <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl">A one-stop shop for those who love fashion is the Sylista Clothing e-commerce App. A simple, intuitive app connects you to a different choice of clothes featuring all major corporations and small-scale creators. Sylista's sophisticated suggestion system tailors to your own preferences, allowing you to make bold fashion choices.</p>
-        <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
-            read More </a>
+        <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl mb-5">A one-stop shop for those who love fashion is the Sylista Clothing e-commerce App. A simple, intuitive app connects you to a different choice of clothes featuring all major corporations and small-scale creators. Sylista's sophisticated suggestion system tailors to your own preferences, allowing you to make bold fashion choices.</p>
+        <a href="/portfolio">
+        <HoverBorderGradient className="bg-transparent text-white lg:text-md 2xl:text-xl font-bold uppercase"
+            >
+              Read More
+            </HoverBorderGradient> 
+          </a>
       </div>
       <div className="p-2 lg:my-10 sm:my-0">
         <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-white lg:text-3xl 2xl:text-4xl">Doctor Aid App Solution</h1>
-        <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl">End the wait! Our Doctor Aid connects you to healthcare specialists and improves scheduling appointments. Patients like a simple platform, while doctors get control over reservations. It's a win-win for a more efficient healthcare experience.</p>
-        <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
-            read More </a>
+        <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl mb-5">End the wait! Our Doctor Aid connects you to healthcare specialists and improves scheduling appointments. Patients like a simple platform, while doctors get control over reservations. It's a win-win for a more efficient healthcare experience.</p>
+        <a href="/portfolio">
+        <HoverBorderGradient className="bg-transparent text-white lg:text-md 2xl:text-xl font-bold uppercase"
+            >
+              Read More
+            </HoverBorderGradient> 
+          </a>
       </div>
       <div className="p-2 2xl:ml-60">
         <div className="inline-flex items-center justify-center flex-shrink-0 h-5/6  lg:h-5/6 sm:h-full mx-auto mb-5 bg-transparent border-13 border-[#9F9FDD] rounded-xl overflow-hidden md:overflow-visible">
@@ -54,8 +68,12 @@ export default function Portfolio() {
       <div className="p-2 lg:my-10 sm:my-0">
         <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-white lg:text-3xl 2xl:text-4xl">Motor Modz App Solution</h1>
         <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl">We created Motor Modz in order to meet an increasing need for a centralized auto platform. Realising the challenges buyers and sellers face in this expert business; the developers designed a mobile application to make buying and selling car parts simpler.</p>
-        <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
-            read More </a>
+        <a href="/portfolio">
+        <HoverBorderGradient className="bg-transparent text-white lg:text-md 2xl:text-xl font-bold uppercase"
+            >
+              Read More
+            </HoverBorderGradient> 
+          </a>
       </div>
       <div className="p-2">
       <div className="inline-flex items-center justify-center flex-shrink-0 h-5/6  lg:h-5/6 sm:h-full mx-auto mb-5 bg-transparent border-13 border-[#9F9FDD] rounded-xl overflow-hidden md:overflow-visible">
@@ -65,8 +83,12 @@ export default function Portfolio() {
       <div className="p-2 lg:my-10 sm:my-0">
         <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-white lg:text-3xl 2xl:text-4xl">Stylista Application Solution</h1>
         <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl">A one-stop shop for those who love fashion is the Sylista Clothing e-commerce App. A simple, intuitive app connects you to a different choice of clothes featuring all major corporations and small-scale creators. Sylista's sophisticated suggestion system tailors to your own preferences, allowing you to make bold fashion choices.</p>
-        <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
-            read More </a>
+        <a href="/portfolio">
+        <HoverBorderGradient className="bg-transparent text-white lg:text-md 2xl:text-xl font-bold uppercase"
+            >
+              Read More
+            </HoverBorderGradient> 
+          </a>
       </div>
       <div className="p-2">
         <div className="inline-flex items-center justify-center flex-shrink-0 h-5/6  lg:h-5/6 sm:h-full mx-auto mb-5 bg-transparent border-13 border-[#9F9FDD] rounded-xl overflow-hidden md:overflow-visible">
@@ -76,8 +98,12 @@ export default function Portfolio() {
       <div className="p-2 lg:my-10 sm:my-0">
         <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-white lg:text-3xl 2xl:text-4xl">Doctor Aid App Solution</h1>
         <p className="mx-auto text-base leading-relaxed text-white 2xl:text-xl">End the wait! Our Doctor Aid connects you to healthcare specialists and improves scheduling appointments. Patients like a simple platform, while doctors get control over reservations. It's a win-win for a more efficient healthcare experience.</p>
-        <a href="/portfolio" className="my-4 inline-block rounded-[25px] border border-white bg-transparent px-8 py-3 text-center font-medium text-white hover:bg-gradient-to-r from-[#290069] to-[#D000E7] uppercase 2xl:text-xl">
-            read More </a>
+        <a href="/portfolio">
+        <HoverBorderGradient className="bg-transparent text-white lg:text-md 2xl:text-xl font-bold uppercase"
+            >
+              Read More
+            </HoverBorderGradient> 
+          </a>
       </div>
     </div>
   </div>

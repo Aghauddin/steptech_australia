@@ -11,30 +11,30 @@ export default function Portfolio() {
   return (
     <section className="flex justify-center items-center mt-0 md:mt-32">
       <div className="relative mx-auto max-w-full px-4 sm:static sm:px-6 lg:px-8 bg-g-purple 2xl:mt-24">
-        <div className="flex justify-center items-center mb-20 md:mb-20 2xl:mt-24 bg-[#22124f] rounded-xl w-full">
+        <div className="flex justify-center items-center mb-20 md:mb-20 2xl:mt-24 rounded-xl w-full">
           <button
-            className={`-ml-0 md:mr-4 px-4 py-2 text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-[#A6A6DF] text-2xl font-bold rounded-lg focus:outline-none ${
-              activeTab === 'webApp' ? 'text-white' : ''
+            className={`-ml-0 md:mr-4 px-3 md:px-4 py-2 px-8 border-2 border-black dark:border-white uppercase bg-white text-indigo-950 transition duration-200 shadow-[1px_1px_rgba(0,225,0),2px_2px_rgba(0,0,225),3px_3px_rgba(225,0,0),4px_4px_rgba(0,225,0),5px_5px_0px_0px_rgba(0,0,225)] dark:shadow-[1px_1px_rgba(0,255,255),2px_2px_rgba(255,0,255),3px_3px_rgba(255,255,0),4px_4px_rgba(0,255,255),5px_5px_0px_0px_rgba(255,0,255)] text-[0.65rem] md:text-[0.85rem] lg:text-lg font-bold rounded-lg focus:outline-none ${
+              activeTab === 'webApp' ? 'text-indigo-950' : ''
             }`}
             onClick={() => handleTabChange('webApp')}
           >
-            Web
+            Website
           </button>
           <button
-            className={`md:mr-4 px-4 py-2 text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-[#A6A6DF] text-2xl font-bold rounded-lg focus:outline-none ${
-              activeTab === 'graphic' ? 'text-white' : ''
+            className={`md:mr-4 ml-2 lg:ml-10 px-3 md:px-4 py-2 border-2 border-black dark:border-white uppercase bg-white text-indigo-950 transition duration-200 shadow-[1px_1px_rgba(0,225,0),2px_2px_rgba(0,0,225),3px_3px_rgba(225,0,0),4px_4px_rgba(0,225,0),5px_5px_0px_0px_rgba(0,0,225)] dark:shadow-[1px_1px_rgba(0,255,255),2px_2px_rgba(255,0,255),3px_3px_rgba(255,255,0),4px_4px_rgba(0,255,255),5px_5px_0px_0px_rgba(255,0,255)] text-[0.65rem] md:text-[0.85rem] lg:text-lg font-bold rounded-lg focus:outline-none  ${
+              activeTab === 'graphic' ? 'text-indigo-950' : ''
             }`}
             onClick={() => handleTabChange('graphic')}
           >
-            Graphic
+            Branding
           </button>
           <button
-            className={`px-4 py-2 text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-[#A6A6DF] text-2xl font-bold rounded-lg focus:outline-none ${
-              activeTab === 'app' ? 'text-white' : ''
+            className={`px-3 md:px-4 py-2 ml-2 lg:ml-10 border-2 border-black dark:border-white uppercase bg-white text-indigo-950 transition duration-200 shadow-[1px_1px_rgba(0,225,0),2px_2px_rgba(0,0,225),3px_3px_rgba(225,0,0),4px_4px_rgba(0,225,0),5px_5px_0px_0px_rgba(0,0,225)] dark:shadow-[1px_1px_rgba(0,255,255),2px_2px_rgba(255,0,255),3px_3px_rgba(255,255,0),4px_4px_rgba(0,255,255),5px_5px_0px_0px_rgba(255,0,255)] text-[0.65rem] md:text-[0.85rem] lg:text-lg font-bold rounded-lg focus:outline-none ${
+              activeTab === 'app' ? 'text-indigo-950' : ''
             }`}
             onClick={() => handleTabChange('app')}
           >
-            App
+            Mobile App
           </button>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 mb-20">

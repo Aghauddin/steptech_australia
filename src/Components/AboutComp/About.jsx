@@ -1,15 +1,18 @@
+import { BackgroundGradientAnimation } from "../../ui/background-gradient";
 export default function About() {
   return (
 <section className="max-w-full px-4 bg-g-purple">
 <div>
   <div className="grid w-full grid-cols-1 gap-12 lg:grid-cols-2 mt-32 md:mt-0 2xl:mt-44">
-    <div className="-mt-24 md:mt-28">
-    <div className="inline-flex items-center justify-center flex-shrink-0 md:h-full h-[300px] lg:h-[400px] w-full mb-5 bg-transparent rounded-xl">
-        <img className="h-[320px] md:h-[350px] lg:h-[520px] object-cover object-center z-10 mt-16 ml-1 md:ml-20 lg:-ml-32" src="https://i.ibb.co/pKjrdzb/image.png"  alt="" />     
-        <img className='h-[240px] md:h-full lg:h-full object-cover object-center -ml-72 md:-ml-121 z-40' src='https://i.ibb.co/xYQsYg6/Group-4-1.png' alt=''/>
+    <div className="-mt-24 md:mt-24">
+    <BackgroundGradientAnimation> 
+    <div className="flex items-center justify-center text-white px-10 pointer-events-none z-50 inset-0"> 
+        <img className='h-[190px] md:h-full lg:h-full object-cover object-center z-50' src='https://i.ibb.co/xYQsYg6/Group-4-1.png' alt=''/>
       </div>
+      </BackgroundGradientAnimation>
+      
     </div>
-    <div className="p-10 flex flex-col justify-center items-center">
+    <div className="p-10 flex flex-col justify-center items-center md:mt-20">
       <h2 className="p-5 -ml-4 md:-ml-8 lg:-ml-5 text-4xl md:text-[2.3rem] lg:text-5xl 2xl:text-5xl font-bold leading-none tracking-tighter capitalize text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-[#A6A6DF]">
       We Build Digital Excellence
       </h2>

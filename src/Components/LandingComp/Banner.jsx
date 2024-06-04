@@ -1,4 +1,4 @@
-import { Button } from "../../ui/moving-border";
+import { HoverBorderGradient } from "../../ui/hover-border-gradient"
 import { FlipWords } from "../../ui/Flip-words";
 
 export default function Banner() {
@@ -12,13 +12,10 @@ export default function Banner() {
       Maximize the High <FlipWords words={words} /> of <span className="text-[#D000E7]">Your Business</span>
       </h1>
       <p className="mx-auto text-base leading-relaxed text-white text-3xl lg:text-2xl sm:text-3xl 2xl:text-4xl mb-5">We are building your business. We go beyond the ordinary for our clients by offering unique, customized, and productive solutions.</p>
-      <Button
-              marginTop="20"
-              borderRadius="1.75rem"
-              className="bg-white dark:bg-slate-900 text-black lg:text-lg font-bold uppercase border-neutral-900 border-white"
+      <HoverBorderGradient className="bg-transparent text-white lg:text-md 2xl:text-xl font-bold uppercase"
             >
               Read More
-            </Button>
+            </HoverBorderGradient>
     </div>
     <div className="hidden sm:block mt-0 md:-mt-32 lg:mt-0 2xl:mt-0">
     <img className="h-[450px] md:h-[550px] 2xl:h-[800px] object-cover object-center z-10 -mt-24 md:mt-5 ml-16 md:ml-10 lg:ml-10 2xl:ml-32 2xl:mt-32 rounded-full" src="https://i.ibb.co/pKjrdzb/image.png" alt=""/>

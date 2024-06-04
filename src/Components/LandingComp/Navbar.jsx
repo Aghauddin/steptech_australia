@@ -123,8 +123,8 @@ function Navbar() {
         <div className="flex justify-end items-end  space-x-3 hidden md:block">
                 <button
                   type="button"
-                  className="bg-gradient-to-r from-[#290069] to-[#D000E7] p-3 md:p-2.5 -mt-10 md:mt-5 rounded text-white font-medium text-md md:text-md 2xl:text-xl hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
-                  Lets Contact
+                  className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-[#D000E7] bg-[linear-gradient(110deg,#000103,45%,#D000E7,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#D000E7] focus:ring-offset-2 focus:ring-offset-slate-50">
+                  Let's Contact
                 </button>
                 <button
                   type="button"
