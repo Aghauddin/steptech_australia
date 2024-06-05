@@ -112,7 +112,8 @@ export default {
         '100': '38rem',
       },
       screens: {
-        'tablet': '640px'
+        'tablet': '640px',
+        'laptop': '1024px',
       },      
       animation: {
         ["infinite-slider"]: "infiniteSlider 20s linear infinite",
