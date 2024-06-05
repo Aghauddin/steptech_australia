@@ -14,12 +14,12 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="p-2">
-    <div className="h-52 w-full md:h-97 tablet:h-[19rem] 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
+    <div className="h-52 w-full md:h-97 tablet:h-[19rem] lg:h-80 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
         <div><img className='h-full md:h-full w-full' src='https://i.ibb.co/HG5YBzh/image.png' alt=''/></div>
         
         <div className="space-y-4 tablet:space-y-2">
         <div class="flex justify-end items-end -mt-60 mb-140 ml-44 md:ml-134 md:-mt-48 2xl:-mt-138 2xl:pr-3">
-          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5">
+          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5 lg:-mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
         <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd">
         </path></svg>
@@ -27,7 +27,7 @@ export default function Portfolio() {
         </div>
         </div>
         <div className="items-center flex justify-start tablet:mt-80">
-        <h2 className="ml-6 md:ml-2 mt-0 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
+        <h2 className="ml-6 md:ml-2 mt-0 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg lg:-mt-2 text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
         </div>
         <div className="items-center flex justify-start">
         <span className="-mt-3.5 ml-6 md:ml-4 tablet:-mt-1 text-xs md:text-sm font-bold bg-gray-400 capitalize">Artificial intelligence</span>
@@ -44,11 +44,11 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="p-2">
-    <div className="h-52 w-full md:h-97 tablet:h-[19rem] 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
+    <div className="h-52 w-full md:h-97 tablet:h-[19rem] lg:h-80 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
         <div><img className='h-full md:h-full w-full' src='https://i.ibb.co/HG5YBzh/image.png' alt=''/></div>
         <div className="space-y-4">
         <div class="flex justify-end items-end -mt-60 mb-140 ml-44 md:ml-134 md:-mt-48 2xl:-mt-138 2xl:pr-3">
-          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5">
+          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5 lg:-mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
         <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd">
         </path></svg>
@@ -56,7 +56,7 @@ export default function Portfolio() {
         </div>
         </div>
         <div className="items-center flex justify-start">
-        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
+        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg lg:-mt-2 text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
         </div>
         <div className="items-center flex justify-start">
         <span className="-mt-3.5 ml-6 md:ml-4 tablet:-mt-2.5 text-xs md:text-sm font-bold bg-gray-400 capitalize">Artificial intelligence</span>
@@ -73,11 +73,11 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="p-2">
-    <div className="h-52 w-full md:h-97 tablet:h-[19rem] 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
+    <div className="h-52 w-full md:h-97 tablet:h-[19rem] lg:h-80 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
         <div><img className='h-full md:h-full w-full' src='https://i.ibb.co/HG5YBzh/image.png' alt=''/></div>
         <div className="space-y-4">
         <div class="flex justify-end items-end -mt-60 mb-140 ml-44 md:ml-134 md:-mt-48 2xl:-mt-138 2xl:pr-3">
-          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5">
+          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5 lg:-mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
         <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd">
         </path></svg>
@@ -85,7 +85,7 @@ export default function Portfolio() {
         </div>
         </div>
         <div className="items-center flex justify-start">
-        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
+        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg lg:-mt-2 text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
         </div>
         <div className="items-center flex justify-start">
         <span className="-mt-3.5 ml-6 md:ml-4 text-xs md:text-sm font-bold bg-gray-400 capitalize">Artificial intelligence</span>
@@ -102,11 +102,11 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="p-2">
-    <div className="h-52 w-full md:h-97 tablet:h-[19rem] 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
+    <div className="h-52 w-full md:h-97 tablet:h-[19rem] lg:h-80 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
         <div><img className='h-full md:h-full w-full' src='https://i.ibb.co/HG5YBzh/image.png' alt=''/></div>
         <div className="space-y-4">
         <div class="flex justify-end items-end -mt-60 mb-140 ml-44 md:ml-134 md:-mt-48 2xl:-mt-138 2xl:pr-3">
-          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5">
+          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5 lg:-mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
         <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd">
         </path></svg>
@@ -114,7 +114,7 @@ export default function Portfolio() {
         </div>
         </div>
         <div className="items-center flex justify-start">
-        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
+        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg lg:-mt-2 text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
         </div>
         <div className="items-center flex justify-start">
         <span className="-mt-3.5 ml-6 md:ml-4 text-xs md:text-sm font-bold bg-gray-400 capitalize">Artificial intelligence</span>
@@ -131,11 +131,11 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="p-2">
-    <div className="h-52 w-full md:h-97 tablet:h-[19rem] 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
+    <div className="h-52 w-full md:h-97 tablet:h-[19rem] lg:h-80 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
         <div><img className='h-full md:h-full w-full' src='https://i.ibb.co/HG5YBzh/image.png' alt=''/></div>
         <div className="space-y-4">
         <div class="flex justify-end items-end -mt-60 mb-140 ml-44 md:ml-134 md:-mt-48 2xl:-mt-138 2xl:pr-3">
-          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5">
+          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5 lg:-mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
         <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd">
         </path></svg>
@@ -143,7 +143,7 @@ export default function Portfolio() {
         </div>
         </div>
         <div className="items-center flex justify-start">
-        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
+        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg lg:-mt-2 text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
         </div>
         <div className="items-center flex justify-start">
         <span className="-mt-3.5 ml-6 md:ml-4 text-xs md:text-sm font-bold bg-gray-400 capitalize">Artificial intelligence</span>
@@ -160,11 +160,11 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="p-2">
-    <div className="h-52 w-full md:h-97 tablet:h-[19rem] 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
+    <div className="h-52 w-full md:h-97 tablet:h-[19rem] lg:h-80 2xl:h-100 mx-auto bg-white border-13 border-none rounded-[2rem] overflow-hidden">
         <div><img className='h-full md:h-full w-full' src='https://i.ibb.co/HG5YBzh/image.png' alt=''/></div>
         <div className="space-y-4">
         <div class="flex justify-end items-end -mt-60 mb-140 ml-44 md:ml-134 md:-mt-48 2xl:-mt-138 2xl:pr-3">
-          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5">
+          <div class="bg-gray-400 rounded-full flex justify-end items-end p-2 tablet:mt-5 lg:-mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
         <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd">
         </path></svg>
@@ -172,7 +172,7 @@ export default function Portfolio() {
         </div>
         </div>
         <div className="items-center flex justify-start">
-        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
+        <h2 className="ml-6 md:ml-2 md:mt-0 2xl:mt-139 tablet:-mt-2 tablet:text-lg lg:-mt-2 text-sm md:text-2xl font-bold capitalize">Artificial intelligence Blog</h2>          
         </div>
         <div className="items-center flex justify-start">
         <span className="-mt-3.5 ml-6 md:ml-4 text-xs md:text-sm font-bold bg-gray-400 capitalize">Artificial intelligence</span>
