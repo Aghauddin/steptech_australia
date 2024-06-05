@@ -158,7 +158,7 @@ export default function Footer() {
           <p className="ml-0 md:ml-0 lg:-ml-7 text-lg font-medium text-white 2xl:text-xl">Contact Us</p>
 
           <ul className="mt-8 space-y-4 text-sm -ml-0 md:-ml-2">
-            <li className="-ml-0  md:-ml-1 lg:-ml-2">
+            <li className="-ml-0  md:-ml-1 lg:-ml-2 tablet:-ml-8">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="mailto:steptechaustralia@gmail.com"
@@ -178,11 +178,11 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span className="flex-1 text-white text-sm md:text-sm -ml-16 md:ml-0 2xl:ml-0">steptechaustralia@gmail.com</span>
+                <span className="flex-1 text-white text-sm md:text-sm -ml-16 md:ml-0 tablet:ml-1 2xl:ml-0">steptechaustralia@gmail.com</span>
               </a>
             </li>
 
-            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4">
+            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4 tablet:-ml-8">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="tel:+61410025346"
@@ -202,11 +202,11 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span className="flex-1 text-white text-md 2xl:text-xl -ml-16 md:-ml-0 lg:ml-0">+61 410 025 346</span>
+                <span className="flex-1 text-white text-md 2xl:text-xl -ml-16 tablet:ml-1 md:-ml-0 lg:ml-0">+61 410 025 346</span>
               </a>
             </li>
 
-            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4">
+            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4 tablet:-ml-8">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="https://maps.app.goo.gl/W7mzU6nfSoYW25uJ9"
@@ -233,7 +233,7 @@ export default function Footer() {
                 />
               </svg>
 
-              <address className="-mt-0.5 flex-1 not-italic text-white 2xl:text-xl -ml-16 md:ml-0 2xl:ml-0">
+              <address className="-mt-0.5 flex-1 not-italic text-white 2xl:text-xl -ml-16 tablet:ml-1 md:ml-0 2xl:ml-0">
               Australia
               </address>
               </a>

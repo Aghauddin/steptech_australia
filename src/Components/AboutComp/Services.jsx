@@ -12,7 +12,7 @@ export default function Services() {
   <div className="flex flex-col justify-end items-start absolute inset-0 w-full px-5 p-5 shadow-xl z-20 border-[#290069]">
   <div className="absolute inset-0 z-10 bg-gradient-to-b from-[rgba(97,0,248,0)] to-[rgba(97,0,248,0.9)] rounded-br-3xl rounded-bl-3xl"></div>
   <div className="flex flex-col justify-start group">
-    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] lg:translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor">samad</p>
+    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] lg:translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor tablet:-mt-24">samad</p>
     <span className="invisible group-hover:visible  text-xs md:text-[0.5rem] lg:text-sm uppercase text-white font-normal z-10">Lorem ipsum dolor sit amet 
     consectetur adipisicing elit. Quisquam omnis cumque deleniti, error dolorem tenetur minima molestias ducimus inventore alias.
     </span>
@@ -24,7 +24,7 @@ export default function Services() {
   <div className="flex flex-col justify-end items-start absolute inset-0 w-full px-5 p-5 shadow-xl z-20 border-[#290069]">
   <div className="absolute inset-0 z-10 bg-gradient-to-b from-[rgba(97,0,248,0)] to-[rgba(97,0,248,0.9)] rounded-br-3xl rounded-bl-3xl"></div>
   <div className="flex flex-col justify-start group">
-    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor">ali</p>
+    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor tablet:-mt-24">ali</p>
     <span className="invisible group-hover:visible  text-xs md:text-[0.5rem] lg:text-sm uppercase text-white font-normal z-10">Lorem ipsum dolor sit amet 
     consectetur adipisicing elit. Quisquam omnis cumque deleniti, error dolorem tenetur minima molestias ducimus inventore alias.
     </span>
@@ -36,7 +36,7 @@ export default function Services() {
   <div className="flex flex-col justify-end items-start absolute inset-0 w-full px-5 p-5 shadow-xl z-20 border-[#290069]">
   <div className="absolute inset-0 z-10 bg-gradient-to-b from-[rgba(97,0,248,0)] to-[rgba(97,0,248,0.9)] rounded-br-3xl rounded-bl-3xl"></div>
   <div className="flex flex-col justify-start group">
-    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor">john</p>
+    <p className="text-3xl md:text-xl lg:text-4xl uppercase text-white font-medium z-20 translate-y-[4.5rem] md:translate-y-[6rem] translate-y-20 hover:translate-y-0 duration-300 delay-300 ease-out cursor tablet:-mt-24">john</p>
     <span className="invisible group-hover:visible  text-xs md:text-[0.5rem] lg:text-sm uppercase text-white font-normal z-10">Lorem ipsum dolor sit amet 
     consectetur adipisicing elit. Quisquam omnis cumque deleniti, error dolorem tenetur minima molestias ducimus inventore alias.
     </span>

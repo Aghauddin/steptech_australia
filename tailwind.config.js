@@ -111,7 +111,9 @@ export default {
       inset: {
         '100': '38rem',
       },
-      
+      screens: {
+        'tablet': '640px'
+      },      
       animation: {
         ["infinite-slider"]: "infiniteSlider 20s linear infinite",
       },
