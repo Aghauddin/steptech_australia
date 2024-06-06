@@ -49,7 +49,7 @@ export default function Portfolio() {
             />
             <div className={`absolute inset-0 flex justify-center items-center transform translate-y-[17rem] tablet:translate-y-[36rem] 2xl:translate-y-8 md:translate-y-[16rem]  lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden  ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">aviidi</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -72,7 +72,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">aj. studio</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -95,7 +95,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">ewabot</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -118,7 +118,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] tablet:translate-y-[54.7rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start  ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">intimate</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -145,7 +145,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">factory</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -168,7 +168,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold">Eatly</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -191,7 +191,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] tablet:translate-y-[54.7rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold">Shelter</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -214,7 +214,7 @@ export default function Portfolio() {
               />
               <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-[17rem] tablet:translate-y-[36rem] 2xl:translate-y-8 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold">Crypto</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -242,7 +242,7 @@ export default function Portfolio() {
             />
             <div className={`absolute inset-0 flex justify-center items-center transform translate-y-[17rem] tablet:translate-y-[36rem] 2xl:translate-y-4 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">codefly</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -265,7 +265,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">dz stationery mockup</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -288,7 +288,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">Florist</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -311,7 +311,7 @@ export default function Portfolio() {
               />
               <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] tablet:translate-y-[54.7rem] 2xl:translate-y-7 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
             <div className="text-start ml-40 md:ml-24 lg:ml-0">
-            <h2 className="text-xl font-bold">Title</h2>
+            <h2 className="text-xl font-bold uppercase">Digital Literature</h2>
             <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
             <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -337,7 +337,7 @@ export default function Portfolio() {
     />
     <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">blossom</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -360,7 +360,7 @@ export default function Portfolio() {
     />
     <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-9 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">palm land</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -383,7 +383,7 @@ export default function Portfolio() {
     />
     <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] tablet:translate-y-[54.7rem] 2xl:translate-y-7 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">Magnificent</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -406,7 +406,7 @@ export default function Portfolio() {
     />
     <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-[17rem] tablet:translate-y-[36rem] 2xl:translate-y-4 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">assemble your pedal</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -434,7 +434,7 @@ alt="gallery-photo"
   />
   <div className={`absolute  inset-0 flex justify-center items-center transform translate-y-[17rem] tablet:translate-y-[36rem] 2xl:translate-y-8 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">Rapid e-learning</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -457,7 +457,7 @@ alt="gallery-photo"
     />
     <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">hatypo.studio</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -480,7 +480,7 @@ alt="gallery-photo"
     />
     <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">devialet</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -503,7 +503,7 @@ alt="gallery-photo"
     />
     <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] tablet:translate-y-[54.7rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
   <div className="text-start ml-40 md:ml-24 lg:ml-0">
-  <h2 className="text-xl font-bold">Title</h2>
+  <h2 className="text-xl font-bold uppercase">Superset fitness app</h2>
   <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
   <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -529,7 +529,7 @@ alt="gallery-photo"
 />
 <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
 <div className="text-start ml-40 md:ml-24 lg:ml-0">
-<h2 className="text-xl font-bold">Title</h2>
+<h2 className="text-xl font-bold uppercase">ed's barber shop</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
 <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -552,7 +552,7 @@ alt="gallery-photo"
 />
 <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-44 tablet:translate-y-[23.8rem] 2xl:translate-y-5 md:translate-y-[10.5rem] lg:translate-y-[22.9rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
 <div className="text-start ml-40 md:ml-24 lg:ml-0">
-<h2 className="text-xl font-bold">Title</h2>
+<h2 className="text-xl font-bold uppercase">chat app</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
 <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -575,7 +575,7 @@ alt="gallery-photo"
 />
 <div className={`absolute inset-0 flex flex-col justify-center items-center transform translate-y-[26rem] tablet:translate-y-[54.7rem] 2xl:translate-y-6 md:translate-y-[24.3rem] lg:translate-y-[52.3rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
 <div className="text-start ml-40 md:ml-24 lg:ml-0">
-<h2 className="text-xl font-bold">Title</h2>
+<h2 className="text-xl font-bold uppercase">rental app</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
 <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -598,7 +598,7 @@ alt="gallery-photo"
 />
 <div className={`absolute inset-0 flex justify-center items-center transform translate-y-[17rem] tablet:translate-y-[36rem] 2xl:translate-y-8 md:translate-y-[16rem] lg:translate-y-[34.5rem] hover:translate-y-0 transition delay-300 ease-in-out duration-300 bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-opacity-50 text-white rounded-tl-[5rem] overflow-hidden ${isHovered ? 'hovered' : ''}`}>
 <div className="text-start ml-40 md:ml-24 lg:ml-0">
-<h2 className="text-xl font-bold">Title</h2>
+<h2 className="text-xl font-bold uppercase">perfume e-commerce</h2>
 <span className="-ml-4 font-bold mt-4 px-4 py-2 text-white rounded-lg">Read More</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5 inline-flex justify-start items-start mr-4 md:-mt-1">
 <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
