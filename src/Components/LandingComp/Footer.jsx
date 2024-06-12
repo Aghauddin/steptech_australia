@@ -226,7 +226,7 @@ export default function Footer() {
                 />
               </svg>
               <address className="flex-1 not-italic text-white text-sm md:text-md -ml-1 tablet:ml-1 md:ml-0 2xl:ml-0">
-              Suite #1086/377 Kent St, Sydney NSW 2000, Australia
+              Suite 1086/377 Kent St, Sydney NSW 2000, Australia
               </address>
               </a>
             </li>

@@ -202,7 +202,7 @@ export default function Contact() {
                                    rel="noreferrer"
                                    target="_blank" 
                                    className="text-white text-lg ml-3 2xl:text-xl">
-                                    <strong>Suite #1086/377 Kent St, Sydney NSW 2000, Australia</strong>
+                                    <strong>Suite 1086/377 Kent St, Sydney NSW 2000, Australia</strong>
                                 </a>
                             </li>
                         </ul>
