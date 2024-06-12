@@ -114,6 +114,19 @@ export default {
       screens: {
         'tablet': '640px',
         'laptop': '1024px',
+      },
+      animation: {
+        shimmer: "shimmer 2s linear infinite",
+      },
+      keyframes: {
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
       },     
       animation: {
         first: "moveVertical 30s ease infinite",
@@ -154,19 +167,6 @@ export default {
           },
           "100%": {
             transform: "translateY(-50%)",
-          },
-        },
-      },
-      animation: {
-        shimmer: "shimmer 2s linear infinite",
-      },
-      keyframes: {
-        shimmer: {
-          from: {
-            backgroundPosition: "0 0",
-          },
-          to: {
-            backgroundPosition: "-200% 0",
           },
         },
       },
