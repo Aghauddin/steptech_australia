@@ -84,27 +84,25 @@ export default function Footer() {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-white 2xl:text-xl">About Us</p>
-
-          <ul className="mt-8 space-y-4 text-sm">
-            <li>
-              <a className="text-white 2xl:text-xl" href="/">
-                Home
-              </a>
-            </li>
-
-            <li>
-              <a className="text-white 2xl:text-xl" href="/about-us">
-                About us
-              </a>
-            </li>
-
-            <li>
+          <p className="text-lg font-medium text-white 2xl:text-xl capitalize">useful links</p>
+          <ul className="mt-8 space-y-4 text-sm capitalize">
+          <li>
               <a className="text-white 2xl:text-xl" href="/portfolio"> Portfolio </a>
             </li>
             <li>
               <a className="text-white 2xl:text-xl" href="/blog"> Blog </a>
             </li>
+
+            <li>
+              <a className="text-white 2xl:text-xl" href="/privacy-policy">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a className="text-white 2xl:text-xl" href="/terms-and-conditions">
+                Terms & Conditions
+              </a>
+            </li>            
           </ul>
         </div>
 
@@ -125,10 +123,6 @@ export default function Footer() {
             <li>
               <a className="text-white 2xl:text-xl" href="/mobile-app-design-&-development"> Mobile App UI/UX Design & Development </a>
             </li>
-
-            <li>
-              <a className="text-white 2xl:text-xl" href="/software-development"> Software Development </a>
-            </li>
             <li>
               <a className="text-white 2xl:text-xl" href="/blockchain-development"> Blockchain Development </a>
             </li>
@@ -146,7 +140,7 @@ export default function Footer() {
               <a className="text-white 2xl:text-xl" href="/ecommerce"> E-commerce </a>
             </li>
             <li>
-              <a className="text-white 2xl:text-xl" href="/nft"> NFT </a>
+              <a className="text-white 2xl:text-xl" href="/nft"> NFT- Marketplace Development</a>
             </li>
             <li>
               <a className="text-white 2xl:text-xl" href="/artificial-intelligence"> Artificial Intelligence </a>
@@ -158,7 +152,7 @@ export default function Footer() {
           <p className="ml-0 md:ml-0 lg:-ml-7 text-lg font-medium text-white 2xl:text-xl">Contact Us</p>
 
           <ul className="mt-8 space-y-4 text-sm -ml-0 md:-ml-2">
-            <li className="-ml-0  md:-ml-1 lg:-ml-2 tablet:-ml-8">
+            <li className="-ml-0  md:-ml-1 lg:-ml-5 tablet:-ml-8">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="mailto:steptechaustralia@gmail.com"
@@ -178,11 +172,11 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span className="flex-1 text-white text-sm md:text-sm -ml-16 md:ml-0 tablet:ml-1 2xl:ml-0">steptechaustralia@gmail.com</span>
+                <span className="flex-1 text-white text-sm md:text-sm -ml-16 md:ml-0 tablet:ml-1 2xl:ml-0">sales@steptech.com.au</span>
               </a>
             </li>
 
-            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4 tablet:-ml-8">
+            <li className="-ml-0 md:-ml-8 lg:-ml-4 tablet:-ml-8">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
                 href="tel:+61410025346"
@@ -201,21 +195,20 @@ export default function Footer() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-
                 <span className="flex-1 text-white text-md 2xl:text-xl -ml-16 tablet:ml-1 md:-ml-0 lg:ml-0">+61 410 025 346</span>
               </a>
             </li>
 
-            <li className="sm:-ml-0 md:-ml-8 lg:-ml-4 tablet:-ml-8">
+            <li className="-ml-0 md:-ml-8 lg:-ml-4 tablet:-ml-8">
               <a
                 className="flex items-center justify-center gap-2 ltr:sm:justify-start rtl:sm:justify-end"
-                href="https://maps.app.goo.gl/W7mzU6nfSoYW25uJ9"
+                href="https://maps.app.goo.gl/BoDvi1eXKkmCVm3S7"
                 rel="noreferrer"
                 target="_blank"
               >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="size-6 shrink-0 text-white ml-8 md:ml-0 2xl:ml-0"
+                className="size-6 shrink-0 text-white ml-8 md:ml-0 2xl:ml-0 -mt-6 md:-mt-10"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -232,9 +225,8 @@ export default function Footer() {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-
-              <address className="-mt-0.5 flex-1 not-italic text-white 2xl:text-xl -ml-16 tablet:ml-1 md:ml-0 2xl:ml-0">
-              Australia
+              <address className="flex-1 not-italic text-white text-sm md:text-md -ml-1 tablet:ml-1 md:ml-0 2xl:ml-0">
+              Suite #1086/377 Kent St, Sydney NSW 2000, Australia
               </address>
               </a>
             </li>
@@ -245,7 +237,7 @@ export default function Footer() {
 
     <div className="mt-12 border-t border-gray-100 pt-1">
       <div className="text-center">
-        <p className="text-sm text-white sm:order-first mt-2 text-lg 2xl:text-xl">&copy; 2024 All rights reserved to Step Tech AU | Design & Develop by Step Tech AU </p>
+        <p className="text-sm text-white sm:order-first mt-2 text-lg 2xl:text-xl">Copyright &copy; 2024 All rights reserved to Step Tech AU | Design & Develop by Step Tech AU </p>
       </div>
     </div>
   </div>

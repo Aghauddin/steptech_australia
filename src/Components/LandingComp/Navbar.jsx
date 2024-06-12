@@ -70,7 +70,7 @@ function Navbar() {
                 className={`md:absolute z-30 ${isDropdownOpen ? '' : 'hidden'} font-normal md:font-bold text-black rounded-lg shadow w-56 md:w-104 lg:w-102 2xl:w-103 flex justify-center items-center ml-0 mt-0 md:-ml-64 lg:-ml-96 2xl:-ml-110 md:mt-3 p-3 bg-[#EDEDFF]`}
               >
                 <ul className="py-2 text-sm text-white" aria-labelledby="dropdownLargeButton">
-                <div className='grid md:grid-cols-3 sm:grid-cols-1'>
+                <div className='grid md:grid-cols-4 sm:grid-cols-1'>
                   <li>
                     <a href="/web-design-&-development" className="block px-4 py-2 hover:bg-black-100 hover:bg-black-600 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Web Development & Design</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Web design and development is to transform the brand game.</span>
@@ -82,10 +82,6 @@ function Navbar() {
                   <li>
                     <a href="/mobile-app-design-&-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Mobile App UI/UX Design & Development</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Stunning UI/UX for happy users.</span>
-                  </li>
-                  <li>
-                    <a href="/software-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">Software Development</a>
-                    <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Bespoke Software Solutions. Safe, Simple, Usable.</span>
                   </li>
                   <li>
                     <a href="/blockchain-development" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl">Blockchain Development</a>
@@ -100,7 +96,7 @@ function Navbar() {
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Global eCommerce. Design, Build, Profit.</span>
                   </li>
                   <li>
-                    <a href="/nft" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">NFT</a>
+                    <a href="/nft" className="block px-4 py-2 hover:bg-gradient-to-r from-[#D000E7] to-[#290069] text-black text-md md:text-lg 2xl:text-xl ">NFT- Marketplace Development</a>
                     <span className='px-4 py-2 text-gray-700 md:text-md 2xl:text-lg hidden md:block capitalize'>Step Up Your NFT Game. Australia's Fastest Marketplace.</span>
                   </li>
                   <li>

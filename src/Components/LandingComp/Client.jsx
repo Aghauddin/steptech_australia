@@ -1,22 +1,25 @@
   
   const LOGOS = [
-    <img src='https://i.ibb.co/7KpqPYm/60292-Converted-09-2.png' alt='' />,
-    <img src='https://i.ibb.co/Km6sxW5/60292-Converted-06-1.png' alt='' />,
-    <img src='https://i.ibb.co/pjfXVXb/60292-Converted-08-1.png' alt='' />,
-    <img src='https://i.ibb.co/KXGmT8T/60292-Converted-07-1.png' alt='' />,
-    <img src='https://i.ibb.co/0FxXM5X/google-1-3.png' alt='' />, 
-    <img src='https://i.ibb.co/7KpqPYm/60292-Converted-09-2.png' alt='' />,
-    <img src='https://i.ibb.co/Km6sxW5/60292-Converted-06-1.png' alt='' />,
-    <img src='https://i.ibb.co/pjfXVXb/60292-Converted-08-1.png' alt='' />,
-    <img src='https://i.ibb.co/KXGmT8T/60292-Converted-07-1.png' alt='' />,
-    <img src='https://i.ibb.co/0FxXM5X/google-1-3.png' alt='' />,     
+    <img src='https://i.ibb.co/tBBkqYc/image.png' alt='roots' />,
+    <img src='https://i.ibb.co/5vJGVMC/image.png' alt='icct' />,
+    <img src='https://i.ibb.co/vqq0NtH/image.png' alt='motor-modz' />,
+    <img src='https://i.ibb.co/WHng3Ty/image.png' alt='creative-circle' />,
+    <img src='https://i.ibb.co/zfBVQP1/image.png' alt='middleman' />,
+    <img src='https://i.ibb.co/FmLn3pH/image.png' alt='lbank' />, 
+    <img src='https://i.ibb.co/LhWB1xF/image.png' alt='tlg' />,
+    <img src='https://i.ibb.co/qRPBBh0/image.png' alt='kudipro' />,
+    <img src='https://i.ibb.co/zNc0hFV/image.png' alt='projectinverse' />,
+    <img src='https://i.ibb.co/tCb5RZm/image.png' alt='pepe' />,
+    <img src='https://i.ibb.co/4TkbJQh/image.png' alt='yaxi' />, 
+    <img src='https://i.ibb.co/7zbwS6h/image.png' alt='oshopi' />,
+        
   ];
   
   export default function Client() {
     return (
         <div className="relative mx-auto max-w-full px-4 sm:static sm:px-6 lg:px-8">
         <div className="sm:max-w-full lg:max-w-full flex justify-center items-center">
-          <h1 className="capitalize mt-20 font-bold tracking-tight text-4xl lg:text-4xl sm:text-6xl capitalize text-transparent bg-clip-text bg-gradient-to-r from-[#A6A6DF] via-[#A6A6DF] to-[#FFFFFF]">
+          <h1 className="mt-20 font-bold tracking-tight text-4xl lg:text-4xl sm:text-6xl capitalize text-transparent bg-clip-text bg-gradient-to-r from-[#A6A6DF] via-[#A6A6DF] to-[#FFFFFF]">
           our clients
           </h1>
           </div>
@@ -24,7 +27,7 @@
         <div className="animate-infinite-slider flex w-[calc(250px*10)]">
           {LOGOS.map((logo, index) => (
             <div
-              className="slide flex w-[150px] md:w-[300px] items-center justify-center"
+              className="slide flex w-[150px] md:w-[300px] items-center gap-10 justify-center"
               key={index}
             >
               {logo}

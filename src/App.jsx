@@ -18,6 +18,8 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Blog from './Pages/Blogs';
+import Privacypolicy from './Pages/Privacypolicy';
+import TermsConditions from './Pages/Termsconditions';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -42,6 +44,8 @@ function App() {
         <Route exact path='/blog' element={<Blog/>}/>
         <Route exact path='/artficial-intelligence' element={<AIIntelBlog/>}/>
         <Route exact path='/artficial-intelligence1' element={<AIIntelBlog1/>}/>
+        <Route exact path='/privacy-policy' element={<Privacypolicy/>}/>
+        <Route exact path='/terms-and-conditions' element={<TermsConditions/>}/>
       </Routes>
     </Router>
   );

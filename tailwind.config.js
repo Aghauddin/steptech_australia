@@ -114,18 +114,7 @@ export default {
       screens: {
         'tablet': '640px',
         'laptop': '1024px',
-      },      
-      animation: {
-        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
-      },
-      keyframes: {
-        infiniteSlider: {
-          "0%": { transform: "translateX(0)" },
-          "100%": {
-            transform: "translateX(calc(-250px * 5))",
-          },
-        },
-      },
+      },     
       animation: {
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",
@@ -178,6 +167,17 @@ export default {
           },
           to: {
             backgroundPosition: "-200% 0",
+          },
+        },
+      },
+      animation: {
+        ["infinite-slider"]: "infiniteSlider 18s linear infinite",
+      },
+      keyframes: {
+        infiniteSlider: {
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            transform: "translateX(calc(-250px * 5))",
           },
         },
       },

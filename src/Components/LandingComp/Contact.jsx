@@ -182,7 +182,7 @@ export default function Contact() {
                                         data-original="#000000" />
                                 </svg>
                                 <a href="mailto:steptechaustralia@gmail.com" className="text-white text-lg ml-3 2xl:text-xl">
-                                    <strong>steptechaustralia@gmail.com</strong>
+                                    <strong>sales@steptech.com.au</strong>
                                 </a>
                             </li>
                             <li className="flex items-center">
@@ -194,15 +194,15 @@ export default function Contact() {
                                 </a>
                             </li>
                             <li className="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill='#fff' viewBox="0 0 368.16 368.16">
+                                <svg xmlns="http://www.w3.org/2000/svg" className='-mt-10 md:-mt-7' width="30px" height="30px" fill='#fff' viewBox="0 0 368.16 368.16">
                                     <path d="M184.08 0c-74.992 0-136 61.008-136 136 0 24.688 11.072 51.24 11.536 52.36 3.576 8.488 10.632 21.672 15.72 29.4l93.248 141.288c3.816 5.792 9.464 9.112 15.496 9.112s11.68-3.32 15.496-9.104l93.256-141.296c5.096-7.728 12.144-20.912 15.72-29.4.464-1.112 11.528-27.664 11.528-52.36 0-74.992-61.008-136-136-136zM293.8 182.152c-3.192 7.608-9.76 19.872-14.328 26.8l-93.256 141.296c-1.84 2.792-2.424 2.792-4.264 0L88.696 208.952c-4.568-6.928-11.136-19.2-14.328-26.808-.136-.328-10.288-24.768-10.288-46.144 0-66.168 53.832-120 120-120s120 53.832 120 120c0 21.408-10.176 45.912-10.28 46.152z" data-original="#000000"></path>
                                     <path d="M184.08 64.008c-39.704 0-72 32.304-72 72s32.296 72 72 72 72-32.304 72-72-32.296-72-72-72zm0 128c-30.872 0-56-25.12-56-56s25.128-56 56-56 56 25.12 56 56-25.128 56-56 56z" data-original="#000000"></path>
                                 </svg>
-                                <a href="https://maps.app.goo.gl/W7mzU6nfSoYW25uJ9"
+                                <a href="https://maps.app.goo.gl/BoDvi1eXKkmCVm3S7"
                                    rel="noreferrer"
                                    target="_blank" 
                                    className="text-white text-lg ml-3 2xl:text-xl">
-                                    <strong>Australia</strong>
+                                    <strong>Suite #1086/377 Kent St, Sydney NSW 2000, Australia</strong>
                                 </a>
                             </li>
                         </ul>
