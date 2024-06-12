@@ -24,7 +24,7 @@
           </h1>
           </div>
       <div className="mt-5 relative m-auto w-full overflow-hidden bg-transparent before:absolute before:left-0 before:top-0 before:z-[2] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full  after:-scale-x-100 after:content-['']">
-        <div className="animate-infinite-slider flex w-[calc(250px*10)]">
+        <div className="animate-infinite-slider flex w-[calc(250px*10)] gap-7">
           {LOGOS.map((logo, index) => (
             <div
               className="slide flex w-[150px] md:w-[300px] items-center gap-10 justify-center"
