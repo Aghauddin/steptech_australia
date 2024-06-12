@@ -56,7 +56,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-start items-start bg-white opacity-1 hover:opacity-100 transition-opacity  duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-start bg-white opacity-1 hover:opacity-100 transition-opacity  duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 1
@@ -79,7 +79,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 2
@@ -102,7 +102,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 3
@@ -125,7 +125,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 4
@@ -152,7 +152,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 5
@@ -175,7 +175,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 6
@@ -198,7 +198,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
             <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 7
@@ -221,7 +221,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent  bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 8
@@ -249,7 +249,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 1
@@ -272,7 +272,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 2
@@ -295,7 +295,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 3
@@ -318,7 +318,7 @@ export default function Portfolio() {
             </svg>
             </div>
             </div>
-            <div className={`absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+            <div className={`hidden absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
              <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
              <h2 className="text-[1rem] font-bold">
                Project 4
@@ -344,7 +344,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 5
@@ -367,7 +367,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 6
@@ -390,7 +390,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
   <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 7
@@ -413,7 +413,7 @@ export default function Portfolio() {
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent  bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 8
@@ -441,7 +441,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 1
@@ -464,7 +464,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 hover:text-blue-500 hover:bg-white rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 2
@@ -487,7 +487,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 3
@@ -510,7 +510,7 @@ alt="gallery-photo"
   </svg>
   </div>
   </div>
-  <div className={`absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+  <div className={`hidden absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
    <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
    <h2 className="text-[1rem] font-bold">
      Project 4
@@ -536,7 +536,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-36 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 5
@@ -559,7 +559,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute tablet:top-56 top-16 md:top-16 lg:top-28 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`hidden absolute tablet:top-56 top-16 md:top-16 lg:top-28 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white  opacity-1 hover:opacity-100 transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 6
@@ -582,7 +582,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`hidden absolute tablet:top-[40rem] top-44 md:top-56 lg:top-100 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white  transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 7
@@ -605,7 +605,7 @@ alt="gallery-photo"
 </svg>
 </div>
 </div>
-<div className={`absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
+<div className={`hidden absolute tablet:top-96 top-28 md:top-24 lg:top-80 left-20 md:left-10 lg:left-20 right-50 bottom-0 md:flex justify-center items-center bg-white opacity-1 hover:opacity-100 shadow-sm shadow-white transition-opacity duration-300 rounded-tr-xl rounded-tl-xl`}>
 <div className="flex flex-col justify-center items-center h-full -rotate-90 text-transparent  bg-gradient-to-r from-[#D000E7] via-[#6100F8] to-[#6100F8] bg-clip-text">
 <h2 className="text-[1rem] font-bold">
 Project 8
@@ -616,8 +616,8 @@ Project 8
 </div>
 </>             
 )}
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
   );
 }
